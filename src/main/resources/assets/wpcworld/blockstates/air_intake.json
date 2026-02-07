@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "wpcworld:block/air_intake" },
+    "facing=south": { "model": "wpcworld:block/air_intake", "y": 180 },
+    "facing=west":  { "model": "wpcworld:block/air_intake", "y": 270 },
+    "facing=east":  { "model": "wpcworld:block/air_intake", "y": 90 }
+  }
+}

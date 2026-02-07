@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "!": {
+      "item": "minecraft:iron_ingot"
+    },
+    "#": {
+      "item": "wpcworld:heat_resistant_brick"
+    },
+    "*": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "###",
+    "#*#",
+    "!!!"
+  ],
+  "result": {
+    "item": "wpcworld:foundry_furnace_controller"
+  },
+  "show_notification": true
+}

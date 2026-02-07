@@ -1,0 +1,13 @@
+{
+  "type": "wpcworld:cobalt_blasting",
+  "cook_time": 300,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "wpcworld:dualbloom_leaf"
+  },
+  "ingredient_count": 1,
+  "result": {
+    "count": 1,
+    "item": "wpcworld:dual_energy_core"
+  }
+}

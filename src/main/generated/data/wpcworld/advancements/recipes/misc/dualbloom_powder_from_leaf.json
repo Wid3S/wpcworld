@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dualbloom_leaf": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wpcworld:dualbloom_leaf"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wpcworld:dualbloom_powder_from_leaf"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dualbloom_leaf",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wpcworld:dualbloom_powder_from_leaf"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wpcworld:raw_lithium"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "wpcworld:lithium_powder"
+  }
+}

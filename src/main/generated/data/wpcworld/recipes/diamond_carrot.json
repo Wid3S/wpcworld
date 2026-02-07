@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:carrot"
+    },
+    "S": {
+      "item": "wpcworld:diamond_shard"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "result": {
+    "item": "wpcworld:diamond_carrot"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "!": {
+      "item": "minecraft:quartz"
+    },
+    "#": {
+      "item": "wpcworld:lithium_nugget"
+    },
+    "*": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    "!#!",
+    "#*#",
+    "!#!"
+  ],
+  "result": {
+    "count": 4,
+    "item": "wpcworld:heat_resistant_brick"
+  },
+  "show_notification": true
+}

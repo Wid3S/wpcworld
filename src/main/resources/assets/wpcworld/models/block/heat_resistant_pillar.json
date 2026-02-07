@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "wpcworld:block/heat_resistant_pillar_side",
+    "south": "wpcworld:block/heat_resistant_pillar_side",
+    "east":  "wpcworld:block/heat_resistant_pillar_side",
+    "west":  "wpcworld:block/heat_resistant_pillar_side",
+    "up":    "wpcworld:block/heat_resistant_pillar_top",
+    "down":  "wpcworld:block/heat_resistant_pillar_top",
+    "particle": "wpcworld:block/heat_resistant_pillar_side"
+  }
+}

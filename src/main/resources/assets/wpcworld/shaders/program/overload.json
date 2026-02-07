@@ -1,0 +1,9 @@
+{
+  "vertex": "wpcworld:overload",
+  "fragment": "wpcworld:overload",
+  "samplers": [
+    { "name": "DiffuseSampler" }
+  ],
+  "attributes": ["Position"],
+  "uniforms": []
+}

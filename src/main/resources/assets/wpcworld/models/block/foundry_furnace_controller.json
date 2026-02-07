@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "wpcworld:block/foundry_furnace_controller",
+    "south": "wpcworld:block/heat_resistant_bricks",
+    "east":  "wpcworld:block/heat_resistant_bricks",
+    "west":  "wpcworld:block/heat_resistant_bricks",
+    "up":    "wpcworld:block/heat_resistant_bricks",
+    "down":  "wpcworld:block/heat_resistant_bricks",
+    "particle": "wpcworld:block/heat_resistant_bricks"
+  }
+}

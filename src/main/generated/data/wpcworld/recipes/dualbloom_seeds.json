@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "wpcworld:resonant_seeds"
+    },
+    "D": {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    "N": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "pattern": [
+    "DDN",
+    "DAN",
+    "DNN"
+  ],
+  "result": {
+    "item": "wpcworld:dualbloom_seeds"
+  },
+  "show_notification": true
+}

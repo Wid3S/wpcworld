@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "wpcworld:albite_crystal"
+    },
+    "N": {
+      "item": "wpcworld:lithium_ingot"
+    },
+    "X": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "pattern": [
+    "XNX",
+    "NAN",
+    "XNX"
+  ],
+  "result": {
+    "item": "wpcworld:resonant_seeds"
+  },
+  "show_notification": true
+}

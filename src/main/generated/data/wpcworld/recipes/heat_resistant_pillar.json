@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "wpcworld:heat_resistant_bricks"
+    }
+  },
+  "pattern": [
+    "H",
+    "H"
+  ],
+  "result": {
+    "count": 2,
+    "item": "wpcworld:heat_resistant_pillar"
+  },
+  "show_notification": true
+}

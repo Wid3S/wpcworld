@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "wpcworld:compressed_diamond"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CPC",
+    "CCC"
+  ],
+  "result": {
+    "item": "wpcworld:diamond_pearl"
+  },
+  "show_notification": true
+}

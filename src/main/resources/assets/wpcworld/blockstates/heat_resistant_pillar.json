@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "wpcworld:block/heat_resistant_pillar"
+    },
+    "axis=x": {
+      "model": "wpcworld:block/heat_resistant_pillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "wpcworld:block/heat_resistant_pillar",
+      "x": 90
+    }
+  }
+}

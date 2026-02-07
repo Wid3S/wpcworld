@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wpcworld:cobalt_ore",
+    "wpcworld:deepslate_cobalt_ore",
+    "wpcworld:deepslate_albite_ore"
+  ]
+}

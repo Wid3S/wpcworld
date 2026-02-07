@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:block/cube",
+  "render_type": "cutout",
+  "textures": {
+    "down":  "wpcworld:block/cobalt_grate",
+    "up":    "wpcworld:block/cobalt_grate",
+    "north": "wpcworld:block/cobalt_grate",
+    "south": "wpcworld:block/cobalt_grate",
+    "west":  "wpcworld:block/cobalt_grate",
+    "east":  "wpcworld:block/cobalt_grate",
+    "particle": "wpcworld:block/cobalt_grate"
+  }
+}

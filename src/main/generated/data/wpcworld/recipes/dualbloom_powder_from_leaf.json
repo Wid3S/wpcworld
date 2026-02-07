@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wpcworld:dualbloom_leaf"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "wpcworld:dualbloom_powder"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "!": {
+      "item": "wpcworld:heat_resistant_bricks"
+    },
+    "#": {
+      "item": "wpcworld:cobalt_ingot"
+    },
+    "*": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "pattern": [
+    "###",
+    "#*#",
+    "!!!"
+  ],
+  "result": {
+    "item": "wpcworld:cobalt_blast_furnace"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "wpcworld:heat_resistant_brick"
+    },
+    "*": {
+      "item": "wpcworld:cobalt_grate"
+    }
+  },
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "result": {
+    "item": "wpcworld:air_intake"
+  },
+  "show_notification": true
+}

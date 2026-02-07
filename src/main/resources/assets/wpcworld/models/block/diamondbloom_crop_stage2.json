@@ -1,0 +1,6 @@
+{
+  "parent": "wpcworld:block/cross_crop",
+  "textures": {
+    "cross_crop": "wpcworld:block/diamondbloom_crop_stage2"
+  }
+}

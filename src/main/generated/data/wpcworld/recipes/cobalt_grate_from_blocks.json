@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "wpcworld:cobalt_block"
+    }
+  },
+  "pattern": [
+    " N ",
+    "N N",
+    " N "
+  ],
+  "result": {
+    "count": 4,
+    "item": "wpcworld:cobalt_grate"
+  },
+  "show_notification": true
+}

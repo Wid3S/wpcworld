@@ -1,0 +1,102 @@
+{
+  "item.wpcworld.lithium_hoe": "Литиевая мотыга",
+  "item.wpcworld.lithium_shovel": "Литиевая лопата",
+  "item.wpcworld.lithium_pickaxe": "Литиевая кирка",
+  "item.wpcworld.lithium_axe": "Литиевый топор",
+  "item.wpcworld.lithium_sword": "Литиевый меч",
+
+  "item.wpcworld.cobalt_hoe": "Кобальтовая мотыга",
+  "item.wpcworld.cobalt_shovel": "Кобальтовая лопата",
+  "item.wpcworld.cobalt_pickaxe": "Кобальтовая кирка",
+  "item.wpcworld.cobalt_axe": "Кобальтовый топор",
+  "item.wpcworld.cobalt_sword": "Кобальтовый меч",
+
+
+  "item.wpcworld.raw_lithium": "Рудной литий",
+  "item.wpcworld.lithium_powder": "Литиевая пыль",
+  "item.wpcworld.lithium_nugget": "Кусочек лития",
+  "item.wpcworld.lithium_ingot": "Литиевый слиток",
+
+  "item.wpcworld.heat_resistant_brick": "Жаростойкий кирпич",
+
+  "item.wpcworld.raw_cobalt": "Рудной кобальт",
+  "item.wpcworld.cobalt_nugget": "Кусочек кобальта",
+  "item.wpcworld.cobalt_ingot": "Кобальтовый слиток",
+
+  "item.wpcworld.coke": "Кокс",
+
+  "item.wpcworld.albite_crystal": "Кристал альбита",
+  "item.wpcworld.resonant_seeds": "Резонансные семена",
+  "item.wpcworld.artifact_base": "Основа артефакта",
+  "item.wpcworld.albite_star": "Звезда альбита",
+
+
+  "item.wpcworld.diamondbloom_seeds": "Семена алмазоцвета",
+  "item.wpcworld.diamond_shard": "Осколок алмаза",
+  "item.wpcworld.compressed_diamond": "Спресованный алмаз",
+  "item.wpcworld.diamond_pearl": "Алмазный жемчуг",
+
+  "item.wpcworld.diamond_carrot": "Алмазная морковь",
+
+  "item.wpcworld.dualbloom_seeds": "Семена двойноцвета",
+  "item.wpcworld.dualbloom_leaf": "Листок двойноцвета",
+  "item.wpcworld.dualbloom_powder": "Порошок двойноцвета",
+  "item.wpcworld.dual_energy_core": "Ядро двойной енергии",
+
+  "item.wpcworld.spiky_recharge": "Шипастая подпитка",
+  "item.wpcworld.prism_of_the_seas": "Призма морей",
+  "item.wpcworld.cursed_worm": "Проклятый червь",
+
+
+  "block.wpcworld.lepidolite_ore": "Лепидолитовая руда",
+  "block.wpcworld.deepslate_lepidolite_ore": "Лепидолитоносный глубинный сланец",
+  "block.wpcworld.raw_lithium_block": "Блок рудного лития",
+  "block.wpcworld.lithium_block": "Литиевый блок",
+
+  "block.wpcworld.heat_resistant_bricks": "Жаростойкие кирпичи",
+  "block.wpcworld.heat_resistant_pillar": "Жаростойкая колонна",
+  "block.wpcworld.foundry_furnace_controller": "Литейная печь",
+
+  "block.wpcworld.cobalt_ore": "Кобальтовая руда",
+  "block.wpcworld.deepslate_cobalt_ore": "Кобальтоносный глубинный сланец",
+  "block.wpcworld.raw_cobalt_block": "Блок рудного кобальта",
+  "block.wpcworld.cobalt_block": "Кобальтовый блок",
+  "block.wpcworld.cobalt_grate": "Кобальтовая решётка",
+
+  "block.wpcworld.air_intake": "Воздухозаборник",
+  "block.wpcworld.cobalt_blast_furnace": "Кобальтовая доменная печь",
+
+  "block.wpcworld.deepslate_albite_ore": "Альбитоносный глубинный сланец",
+
+
+  "block.wpcworld.diamondbloom_crop": "Алмазоцвет",
+  "block.wpcworld.dualbloom_crop": "Двойноцвет",
+
+
+
+  "item.wpcworld.sea_tyran_helmet": "Шлем морского тирана",
+  "item.wpcworld.sea_tyran_chestplate": "Нагрудник морского тирана",
+  "item.wpcworld.sea_tyran_leggings": "Поножи морского тирана",
+  "item.wpcworld.sea_tyran_boots": "Ботинки морского тирана",
+
+
+  "enchantment.wpcworld.abyssal_hunger": "Голод бездны",
+
+
+  "effect.wpcworld.overload": "Перегруз",
+  "effect.wpcworld.recharge": "Подпитка",
+  "effect.wpcworld.sea_sickness": "Морская болезнь",
+
+
+  "station_name.wpcworld.foundry_furnace_controller": "Литейная печь",
+  "emi.category.wpcworld.foundry_smelting": "Литейная печь",
+
+  "station_name.wpcworld.cobalt_blast_furnace": "Доменная печь",
+  "emi.category.wpcworld.cobalt_blasting": "Доменная печь",
+
+
+  "message.wpcworld.foundry.invalid_structure": "Литейная печь собрана неправильно или не полностью",
+
+
+  "itemgroup.wpc_world_group": "WPC: Предметы"
+}

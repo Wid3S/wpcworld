@@ -1,0 +1,100 @@
+{
+  "item.wpcworld.lithium_hoe": "Lithium Hoe",
+  "item.wpcworld.lithium_shovel": "Lithium Shovel",
+  "item.wpcworld.lithium_pickaxe": "Lithium Pickaxe",
+  "item.wpcworld.lithium_axe": "Lithium Axe",
+  "item.wpcworld.lithium_sword": "Lithium Sword",
+
+  "item.wpcworld.cobalt_hoe": "Cobalt Hoe",
+  "item.wpcworld.cobalt_shovel": "Cobalt Shovel",
+  "item.wpcworld.cobalt_pickaxe": "Cobalt Pickaxe",
+  "item.wpcworld.cobalt_axe": "Cobalt Axe",
+  "item.wpcworld.cobalt_sword": "Cobalt Sword",
+
+
+  "item.wpcworld.raw_lithium": "Raw Lithium",
+  "item.wpcworld.lithium_powder": "Lithium Powder",
+  "item.wpcworld.lithium_nugget": "Lithium Nugget",
+  "item.wpcworld.lithium_ingot": "Lithium Ingot",
+
+  "item.wpcworld.heat_resistant_brick": "Heat Resistant Brick",
+
+  "item.wpcworld.raw_cobalt": "Raw Cobalt",
+  "item.wpcworld.cobalt_nugget": "Cobalt Nugget",
+  "item.wpcworld.cobalt_ingot": "Cobalt Ingot",
+
+  "item.wpcworld.сoke": "Coke",
+
+  "item.wpcworld.albite_crystal": "Albite Crystal",
+  "item.wpcworld.resonant_seeds": "Resonant Seeds",
+  "item.wpcworld.artifact_base": "Artifact Base",
+  "item.wpcworld.albite_star": "Albite Star",
+
+  "item.wpcworld.diamondbloom_seeds": "Diamondbloom Seeds",
+  "item.wpcworld.diamond_shard": "Diamond Shard",
+  "item.wpcworld.compressed_diamond": "Compressed Diamond",
+  "item.wpcworld.diamond_pearl": "Diamond Pearl",
+
+  "item.wpcworld.diamond_carrot": "Diamond Carrot",
+
+  "item.wpcworld.dualbloom_seeds": "Dualbloom Seeds",
+  "item.wpcworld.dualbloom_leaf": "Dualbloom Leaf",
+  "item.wpcworld.dualbloom_powder": "Dualbloom Powder",
+  "item.wpcworld.dual_energy_core": "Dual Energy Core",
+
+  "item.wpcworld.spiky_recharge": "Spiky Recharge",
+  "item.wpcworld.prism_of_the_seas": "Prism of the Seas",
+  "item.wpcworld.cursed_worm": "Cursed Worm",
+
+
+  "block.wpcworld.lepidolite_ore": "Lepidolite Ore",
+  "block.wpcworld.deepslate_lepidolite_ore": "Deepslate Lepidolite Ore",
+  "block.wpcworld.raw_lithium_block": "Block of Raw Lithium",
+  "block.wpcworld.lithium_block": "Block of Lithium",
+
+  "block.wpcworld.heat_resistant_bricks": "Heat Resistant Bricks",
+  "block.wpcworld.heat_resistant_pillar": "Heat Resistant Pillar",
+  "block.wpcworld.foundry_furnace_controller": "Foundry Furnace",
+
+  "block.wpcworld.cobalt_ore": "Cobalt Ore",
+  "block.wpcworld.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.wpcworld.raw_cobalt_block": "Block of Raw Cobalt",
+  "block.wpcworld.cobalt_block": "Block of Cobalt",
+  "block.wpcworld.cobalt_grate": "Cobalt Grate",
+
+  "block.wpcworld.air_intake": "Air Intake",
+  "block.wpcworld.cobalt_blast_furnace": "Cobalt Blast Furnace",
+
+  "block.wpcworld.deepslate_albite_ore": "Deepslate Albite Ore",
+
+
+  "block.wpcworld.dualbloom_crop": "Dualbloom",
+  "block.wpcworld.diamondbloom_crop": "Diamondbloom",
+
+
+  "item.wpcworld.sea_tyran_helmet": "Helmet of the Sea Tyrant",
+  "item.wpcworld.sea_tyran_chestplate": "Chestplate of the Sea Tyrant",
+  "item.wpcworld.sea_tyran_leggings": "Leggings of the Sea Tyrant",
+  "item.wpcworld.sea_tyran_boots": "Boots of the Sea Tyrant",
+
+
+  "enchantment.wpcworld.abyssal_hunger": "Abyssal Hunger",
+
+
+  "effect.wpcworld.overload": "Overload",
+  "effect.wpcworld.recharge": "Recharge",
+  "effect.wpcworld.sea_sickness": "Sea Sickness",
+
+
+  "station_name.wpcworld.foundry_furnace_controller": "Foundry Furnace",
+  "emi.category.wpcworld.foundry_smelting": "Foundry Furnace",
+
+  "station_name.wpcworld.cobalt_blast_furnace": "Blast Furnace",
+  "emi.category.wpcworld.cobalt_blasting": "Cobalt Blasting",
+
+
+  "message.wpcworld.foundry.invalid_structure": "Foundry structure is incomplete or built incorrectly",
+
+
+  "itemgroup.wpc_world_group": "WPC: Items"
+}

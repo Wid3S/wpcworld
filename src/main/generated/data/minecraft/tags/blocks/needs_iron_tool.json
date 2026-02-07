@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "wpcworld:deepslate_lepidolite_ore",
+    "wpcworld:lepidolite_ore",
+    "wpcworld:raw_lithium_block",
+    "wpcworld:lithium_block",
+    "wpcworld:cobalt_grate",
+    "wpcworld:raw_cobalt_block",
+    "wpcworld:cobalt_block",
+    "wpcworld:air_intake",
+    "wpcworld:cobalt_blast_furnace"
+  ]
+}

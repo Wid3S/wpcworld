@@ -1,0 +1,13 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "overload",
+      "program": "wpcworld:overload",
+      "intarget": "minecraft:main",
+      "outtarget": "swap"
+    }
+  ]
+}

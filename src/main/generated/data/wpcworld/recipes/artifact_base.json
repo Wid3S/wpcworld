@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "wpcworld:albite_crystal"
+    },
+    "D": {
+      "item": "wpcworld:diamond_pearl"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ADA",
+    " A "
+  ],
+  "result": {
+    "item": "wpcworld:artifact_base"
+  },
+  "show_notification": true
+}
