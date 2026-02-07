@@ -79,6 +79,9 @@ public class ModItems {
     public static final Item  TUNGSTEN_INGOT = registerItem("tungsten_ingot",
             new Item(new FabricItemSettings()));
 
+    public static final Item  TUNGSTEN_SWORD = registerItem("tungsten_sword",
+            new SwordItem(ModToolMaterial.TUNGSTEN, 3, -2.4F, new FabricItemSettings()));
+
     public static final Item  CHROME_INGOT = registerItem("chrome_ingot",
             new Item(new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
 

@@ -39,7 +39,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.AIR_INTAKE,
                         ModBlocks.COBALT_BLAST_FURNACE,
                         ModBlocks.DEEPSLATE_ALBITE_ORE,
-                        ModBlocks.DEEPSLATE_TUNGSTEN_ORE
+                        ModBlocks.DEEPSLATE_TUNGSTEN_ORE,
+                        ModBlocks.RAW_TUNGSTEN_BLOCK,
+                        ModBlocks.TUNGSTEN_BLOCK
                         );
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -62,7 +64,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COBALT_ORE,
                         ModBlocks.DEEPSLATE_COBALT_ORE,
                         ModBlocks.DEEPSLATE_TUNGSTEN_ORE,
-                        ModBlocks.DEEPSLATE_ALBITE_ORE);
+                        ModBlocks.DEEPSLATE_ALBITE_ORE,
+                        ModBlocks.RAW_TUNGSTEN_BLOCK,
+                        ModBlocks.TUNGSTEN_BLOCK);
 
         //getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
                 //.add(ModBlocks.DEEPSLATE_ALBITE_ORE);

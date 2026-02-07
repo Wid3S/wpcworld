@@ -10,6 +10,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
+TUNGSTEN(4, 2800, 12.0F, 6.0F, 7, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.TUNGSTEN_INGOT})),
 COBALT(3, 1800, 9.0F, 4.0F, 9, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.COBALT_INGOT})),
 LITHIUM(2, 370, 6.5F, 2.0F, 15, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.LITHIUM_INGOT}));
 

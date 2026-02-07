@@ -30,6 +30,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ALBITE_ORE);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_TUNGSTEN_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TUNGSTEN_BLOCK);
     }
 
     @Override
@@ -85,6 +87,8 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.RAW_TUNGSTEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TUNGSTEN_INGOT, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.TUNGSTEN_SWORD, Models.HANDHELD);
 
         itemModelGenerator.register(ModItems.SPIKY_RECHARGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRISM_OF_THE_SEAS, Models.GENERATED);

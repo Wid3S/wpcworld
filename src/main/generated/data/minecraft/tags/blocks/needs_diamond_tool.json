@@ -4,6 +4,8 @@
     "wpcworld:cobalt_ore",
     "wpcworld:deepslate_cobalt_ore",
     "wpcworld:deepslate_tungsten_ore",
-    "wpcworld:deepslate_albite_ore"
+    "wpcworld:deepslate_albite_ore",
+    "wpcworld:raw_tungsten_block",
+    "wpcworld:tungsten_block"
   ]
 }

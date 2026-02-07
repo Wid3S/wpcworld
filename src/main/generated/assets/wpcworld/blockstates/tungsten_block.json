@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wpcworld:block/tungsten_block"
+    }
+  }
+}

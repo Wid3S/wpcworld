@@ -95,6 +95,20 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
                 .offerTo(consumer, id("cobalt_nuggets_from_ingot"));
 
+        // -------- TUNGSTEN --------
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TUNGSTEN_INGOT, 9)
+                .input(ModBlocks.TUNGSTEN_BLOCK)
+                .criterion(hasItem(ModBlocks.TUNGSTEN_BLOCK), conditionsFromItem(ModBlocks.TUNGSTEN_BLOCK))
+                .offerTo(consumer, id("tungsten_ingot_from_block"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TUNGSTEN_BLOCK)
+                .pattern("III")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.TUNGSTEN_INGOT)
+                .criterion(hasItem(ModItems.TUNGSTEN_INGOT), conditionsFromItem(ModItems.TUNGSTEN_INGOT))
+                .offerTo(consumer, id("tungsten_block_from_ingots"));
 
         // -------- DUALBLOOM --------
 
@@ -211,6 +225,19 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input(ModBlocks.RAW_COBALT_BLOCK)
                 .criterion(hasItem(ModBlocks.RAW_COBALT_BLOCK), conditionsFromItem(ModBlocks.RAW_COBALT_BLOCK))
                 .offerTo(consumer, id("raw_cobalt_from_block"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_TUNGSTEN_BLOCK)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern("RRR")
+                .input('R', ModItems.RAW_TUNGSTEN)
+                .criterion(hasItem(ModItems.RAW_TUNGSTEN), conditionsFromItem(ModItems.RAW_TUNGSTEN))
+                .offerTo(consumer, id("raw_tungsten_block_from_raw"));
+
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.RAW_TUNGSTEN, 9)
+                .input(ModBlocks.RAW_TUNGSTEN_BLOCK)
+                .criterion(hasItem(ModBlocks.RAW_TUNGSTEN_BLOCK), conditionsFromItem(ModBlocks.RAW_TUNGSTEN_BLOCK))
+                .offerTo(consumer, id("raw_tungsten_from_block"));
 
         // -------- HEAT RESISTANT --------
 

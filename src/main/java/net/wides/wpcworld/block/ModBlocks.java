@@ -55,6 +55,10 @@ public class ModBlocks {
 
     public static final Block DEEPSLATE_TUNGSTEN_ORE = registerBlock("deepslate_tungsten_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(7.0f, 7.0f), UniformIntProvider.create(3, 5)));
+    public static final Block RAW_TUNGSTEN_BLOCK = registerBlock("raw_tungsten_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.RAW_IRON_BLOCK).strength(7.0f, 7.0f)));
+    public static final Block TUNGSTEN_BLOCK = registerBlock("tungsten_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(7.0f, 7.0f)));
 
     public static final Block DUALBLOOM_CROP = registerBlockWithoutBlockItem("dualbloom_crop",
             new DualBloomCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));

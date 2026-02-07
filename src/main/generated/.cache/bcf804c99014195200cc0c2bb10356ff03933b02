@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-07T11:28:25.7311688	WPC World/Model Definitions
+// 1.20.1	2026-02-07T23:58:08.9647071	WPC World/Model Definitions
 1568bb0ed3ed6a7bb389ad035391bfd6fde7984d assets\wpcworld\models\block\deepslate_lepidolite_ore.json
 6c316c2361b601761347ad3d32bdf6763c58c8a7 assets\wpcworld\models\item\cobalt_ingot.json
 dca4a4a4915ee9716fbe4c6a297f54cb0bf6ba07 assets\wpcworld\models\item\deepslate_albite_ore.json
@@ -23,11 +23,13 @@ fa596b039c86f9c045a22586c208d144369d4e4c assets\wpcworld\models\item\diamond_sha
 743bc7f5788fc9d3a2a3a28ac4d47c46e35a3c0d assets\wpcworld\blockstates\cobalt_ore.json
 78643b812b0dc8107286ca6a36edb30ffc5799cb assets\wpcworld\models\item\lithium_axe.json
 d665bed3b99a6e854f0b5b3410e9fce2d5d9e2fc assets\wpcworld\models\block\heat_resistant_bricks.json
+4c069f15e71257e651efaa7defc6d65423c2a02d assets\wpcworld\models\item\tungsten_sword.json
 86897fcb0fb7c0ff1ea714d308f69135e1e67205 assets\wpcworld\models\block\raw_cobalt_block.json
 c8d0a1dfc5d0c38d6edcf3cf607021bdb0d521a9 assets\wpcworld\blockstates\lithium_block.json
 23730f46426da5a1ad1bddc78b5950a2c82e5f5b assets\wpcworld\blockstates\deepslate_albite_ore.json
 88e5d3a843d8c4b705c1457e9698377ed94b4701 assets\wpcworld\models\block\cobalt_block.json
 5cd643c270b659419e2d0ddd922f6ca7cb9fe50d assets\wpcworld\blockstates\cobalt_block.json
+93c008c7041463e4a85b12b6e2ebd019550afd3e assets\wpcworld\blockstates\tungsten_block.json
 1796edf90d5275e2f785a1b5661f7f2b645266f0 assets\wpcworld\models\item\raw_cobalt_block.json
 70b2ca75b7c4b5a2a2a71c37e4be3740ff3b0d52 assets\wpcworld\models\item\lithium_ingot.json
 27b258a2f4dc0b5de6674eb8120feb7a0f4c25dc assets\wpcworld\models\item\cobalt_axe.json
@@ -35,9 +37,11 @@ b28124f751d0921eee4334a39839cbccba6a2fa0 assets\wpcworld\models\item\cobalt_ore.
 8a59ba965a9608e4f39ce4cd3df499821f92d9ef assets\wpcworld\models\item\dualbloom_leaf.json
 d92a5dd12288695dbf806ae941c7136b8ae28220 assets\wpcworld\models\item\diamond_pearl.json
 9d123aacabeb0dee9535143102e66acba3559aa4 assets\wpcworld\models\item\lithium_pickaxe.json
+f67fde363cf1b364e2ca1189aab6c4b3f6eb23e7 assets\wpcworld\models\item\tungsten_block.json
 df9797931e31ad8dafa9416027c60344645b6653 assets\wpcworld\models\item\lepidolite_ore.json
 f2277e0d332657fa0d5dafdb48ed6c8c6ce235c9 assets\wpcworld\models\item\raw_cobalt.json
 e8e708f7c4bb9d29b8ad58dba883f20bcebb5399 assets\wpcworld\models\item\albite_star.json
+ef5588355a4177b0283059be5b15cd8da41f352f assets\wpcworld\models\block\tungsten_block.json
 0d2a6f04a812c81714f9943ff82d09dfc4c4a9e0 assets\wpcworld\models\item\raw_tungsten.json
 3ee3f061a6b0780c0e5edc7ac44a613243cfa25c assets\wpcworld\models\item\sea_tyran_boots.json
 beee632d16e26391e64d73fad08cad5a62cdf620 assets\wpcworld\models\item\deepslate_tungsten_ore.json
@@ -46,6 +50,7 @@ beee632d16e26391e64d73fad08cad5a62cdf620 assets\wpcworld\models\item\deepslate_t
 4652ca5477b39348fb5fcef9a8163c88fe73a19f assets\wpcworld\blockstates\deepslate_tungsten_ore.json
 d2d7b8b71c62e0ba2e0d30284d278a5a4c2ef949 assets\wpcworld\models\block\deepslate_albite_ore.json
 993f3246fddd7578b5fbec6606781af0a312e573 assets\wpcworld\models\item\coke.json
+e3fe814b6aabc7a48d75b9dd7f720e0d0a5d487f assets\wpcworld\blockstates\raw_tungsten_block.json
 b3cef0fb2100f5684b45ab921c17bae12a46e6da assets\wpcworld\blockstates\deepslate_lepidolite_ore.json
 d4884a57f68fb9715e448239f8b1896799f87b9b assets\wpcworld\models\item\cobalt_pickaxe.json
 de9e0790dde106d93199749d723007aebe54f730 assets\wpcworld\models\item\cobalt_shovel.json
@@ -55,6 +60,7 @@ dda61060389f14c2d25af6b750232523348fa748 assets\wpcworld\blockstates\deepslate_c
 e4cd877d8593d44f494735232b2720e6fd289f03 assets\wpcworld\models\item\compressed_diamond.json
 98dfb80041813265c022db23d0b33c92e5b47f8d assets\wpcworld\models\item\resonant_seeds.json
 f19a39a227e56bfd0b16548f1f171a9aaaa17972 assets\wpcworld\models\block\lepidolite_ore.json
+31f09037e7223c81189aeb9ea1691e5449f0b736 assets\wpcworld\models\block\raw_tungsten_block.json
 f87d8d2bea57f5d3fc88731ee8da87e44129cb9a assets\wpcworld\models\item\sea_tyran_leggings.json
 64c42df2dc2a51294f0436a38a4ca7edfe9c802b assets\wpcworld\models\item\artifact_base.json
 2a7f5bc48792b004e3fddd361cf127ce5c0329b8 assets\wpcworld\models\item\cobalt_block.json
@@ -67,6 +73,7 @@ c3f8c3f7231b034051c7c4fea93e38049e1ad598 assets\wpcworld\models\block\deepslate_
 a3729bd9eea0ace572dcb6d77b2fb7d4382f1997 assets\wpcworld\models\block\raw_lithium_block.json
 0208a634cbb3161d5f552f6992266dcab93c21af assets\wpcworld\models\item\raw_lithium.json
 fd495d9ea358654696b0b980adcd1eb4820215e0 assets\wpcworld\blockstates\heat_resistant_bricks.json
+ba090eb849b4844516aca52eed3718f405adc546 assets\wpcworld\models\item\raw_tungsten_block.json
 55584dcf113f5948f75d861b52b6017751dcfb63 assets\wpcworld\models\item\dualbloom_powder.json
 04371c8bf9414bd9e8e7e0091232776b5a095fd4 assets\wpcworld\models\item\lithium_sword.json
 cf7f3ddf02c5c4d888b8750f950c7a1e30de251a assets\wpcworld\blockstates\raw_cobalt_block.json

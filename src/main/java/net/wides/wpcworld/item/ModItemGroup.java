@@ -85,7 +85,11 @@ public class ModItemGroup {
 
                         entries.add(RAW_TUNGSTEN);
                         entries.add(DEEPSLATE_TUNGSTEN_ORE);
+                        entries.add(RAW_TUNGSTEN_BLOCK);
                         entries.add(TUNGSTEN_INGOT);
+                        entries.add(TUNGSTEN_BLOCK);
+
+                        entries.add(TUNGSTEN_SWORD);
 
                         entries.add(SPIKY_RECHARGE);
                         entries.add(PRISM_OF_THE_SEAS);

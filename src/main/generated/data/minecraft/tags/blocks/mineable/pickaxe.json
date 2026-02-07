@@ -16,6 +16,8 @@
     "wpcworld:air_intake",
     "wpcworld:cobalt_blast_furnace",
     "wpcworld:deepslate_albite_ore",
-    "wpcworld:deepslate_tungsten_ore"
+    "wpcworld:deepslate_tungsten_ore",
+    "wpcworld:raw_tungsten_block",
+    "wpcworld:tungsten_block"
   ]
 }
