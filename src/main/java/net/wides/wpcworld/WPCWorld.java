@@ -20,6 +20,7 @@ public class WPCWorld implements ModInitializer {
 	public static final String MOD_ID = "wpcworld";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
+    //Hi
 	@Override
 	public void onInitialize() {
 
