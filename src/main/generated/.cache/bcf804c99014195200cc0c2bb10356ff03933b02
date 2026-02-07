@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-06T22:00:34.2416944	WPC World/Model Definitions
+// 1.20.1	2026-02-07T11:28:25.7311688	WPC World/Model Definitions
 1568bb0ed3ed6a7bb389ad035391bfd6fde7984d assets\wpcworld\models\block\deepslate_lepidolite_ore.json
 6c316c2361b601761347ad3d32bdf6763c58c8a7 assets\wpcworld\models\item\cobalt_ingot.json
 dca4a4a4915ee9716fbe4c6a297f54cb0bf6ba07 assets\wpcworld\models\item\deepslate_albite_ore.json
@@ -38,9 +38,12 @@ d92a5dd12288695dbf806ae941c7136b8ae28220 assets\wpcworld\models\item\diamond_pea
 df9797931e31ad8dafa9416027c60344645b6653 assets\wpcworld\models\item\lepidolite_ore.json
 f2277e0d332657fa0d5dafdb48ed6c8c6ce235c9 assets\wpcworld\models\item\raw_cobalt.json
 e8e708f7c4bb9d29b8ad58dba883f20bcebb5399 assets\wpcworld\models\item\albite_star.json
+0d2a6f04a812c81714f9943ff82d09dfc4c4a9e0 assets\wpcworld\models\item\raw_tungsten.json
 3ee3f061a6b0780c0e5edc7ac44a613243cfa25c assets\wpcworld\models\item\sea_tyran_boots.json
+beee632d16e26391e64d73fad08cad5a62cdf620 assets\wpcworld\models\item\deepslate_tungsten_ore.json
 9b7746a510007df497b1aedf910280822f177799 assets\wpcworld\models\item\lithium_powder.json
 4796e83adf0db9c3b1c12ca1ef6731d53448b8a4 assets\wpcworld\models\item\deepslate_cobalt_ore.json
+4652ca5477b39348fb5fcef9a8163c88fe73a19f assets\wpcworld\blockstates\deepslate_tungsten_ore.json
 d2d7b8b71c62e0ba2e0d30284d278a5a4c2ef949 assets\wpcworld\models\block\deepslate_albite_ore.json
 993f3246fddd7578b5fbec6606781af0a312e573 assets\wpcworld\models\item\coke.json
 b3cef0fb2100f5684b45ab921c17bae12a46e6da assets\wpcworld\blockstates\deepslate_lepidolite_ore.json
@@ -59,6 +62,8 @@ fd49c7229ff7e4485ec0cfb442f32660e0cce24d assets\wpcworld\models\item\cobalt_hoe.
 8ca4b295ae32e03f4d90d28d0e3d823220c4ef02 assets\wpcworld\blockstates\raw_lithium_block.json
 85c9068a4d3a633307eccfd2d627a190ef5219ce assets\wpcworld\models\item\prism_of_the_seas.json
 058a463c33eeae8cb25a8b374701ef7212183c71 assets\wpcworld\models\item\cursed_worm.json
+79d5df2c21202b6ee4f183b8d105e0c0ae461ad4 assets\wpcworld\models\item\tungsten_ingot.json
+c3f8c3f7231b034051c7c4fea93e38049e1ad598 assets\wpcworld\models\block\deepslate_tungsten_ore.json
 a3729bd9eea0ace572dcb6d77b2fb7d4382f1997 assets\wpcworld\models\block\raw_lithium_block.json
 0208a634cbb3161d5f552f6992266dcab93c21af assets\wpcworld\models\item\raw_lithium.json
 fd495d9ea358654696b0b980adcd1eb4820215e0 assets\wpcworld\blockstates\heat_resistant_bricks.json

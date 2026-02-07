@@ -53,6 +53,9 @@ public class ModBlocks {
     public static final Block DEEPSLATE_ALBITE_ORE = registerBlock("deepslate_albite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(8.0f, 8.0f), UniformIntProvider.create(7, 9)));
 
+    public static final Block DEEPSLATE_TUNGSTEN_ORE = registerBlock("deepslate_tungsten_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE).strength(7.0f, 7.0f), UniformIntProvider.create(3, 5)));
+
     public static final Block DUALBLOOM_CROP = registerBlockWithoutBlockItem("dualbloom_crop",
             new DualBloomCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 

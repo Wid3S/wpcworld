@@ -74,6 +74,11 @@ public class ModItems {
     public static final Item  ARTIFACT_BASE = registerItem("artifact_base",
             new Item(new FabricItemSettings()));
 
+    public static final Item  RAW_TUNGSTEN = registerItem("raw_tungsten",
+            new Item(new FabricItemSettings()));
+    public static final Item  TUNGSTEN_INGOT = registerItem("tungsten_ingot",
+            new Item(new FabricItemSettings()));
+
     public static final Item  CHROME_INGOT = registerItem("chrome_ingot",
             new Item(new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
 

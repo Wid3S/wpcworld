@@ -83,6 +83,10 @@ public class ModItemGroup {
                         entries.add(ARTIFACT_BASE);
                         entries.add(ALBITE_STAR);
 
+                        entries.add(RAW_TUNGSTEN);
+                        entries.add(DEEPSLATE_TUNGSTEN_ORE);
+                        entries.add(TUNGSTEN_INGOT);
+
                         entries.add(SPIKY_RECHARGE);
                         entries.add(PRISM_OF_THE_SEAS);
                         entries.add(CURSED_WORM);

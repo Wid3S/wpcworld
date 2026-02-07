@@ -435,6 +435,12 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 250, 0.7f
         ).offerTo(consumer);
 
+        CobaltBlastingRecipeBuilder.smelting(
+                ModItems.RAW_TUNGSTEN, 1,
+                ModItems.TUNGSTEN_INGOT, 1,
+                500, 1.5f
+        ).offerTo(consumer);
+
         offerSmelting(consumer, List.of(ModItems.LITHIUM_POWDER), RecipeCategory.MISC, ModItems.LITHIUM_NUGGET, 0.1f, 200, "lithium");
         offerBlasting(consumer, List.of(ModItems.LITHIUM_POWDER), RecipeCategory.MISC, ModItems.LITHIUM_NUGGET, 0.1f, 100, "lithium");
     }

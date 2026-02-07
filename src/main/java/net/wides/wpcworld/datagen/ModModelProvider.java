@@ -28,6 +28,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.COBALT_BLOCK);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_ALBITE_ORE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
     }
 
     @Override
@@ -80,6 +82,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RESONANT_SEEDS, Models.GENERATED);
         itemModelGenerator.register(ModItems.ALBITE_STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARTIFACT_BASE, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RAW_TUNGSTEN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_INGOT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.SPIKY_RECHARGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRISM_OF_THE_SEAS, Models.GENERATED);
