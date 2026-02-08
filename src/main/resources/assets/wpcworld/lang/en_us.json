@@ -11,6 +11,12 @@
   "item.wpcworld.cobalt_axe": "Cobalt Axe",
   "item.wpcworld.cobalt_sword": "Cobalt Sword",
 
+  "item.wpcworld.tungsten_hoe": "Tungsten Hoe",
+  "item.wpcworld.tungsten_excavator_shovel": "Tungsten Mega Shovel",
+  "item.wpcworld.tungsten_excavator": "Tungsten Excavator",
+  "item.wpcworld.tungsten_treecutter": "Tungsten Treecutter",
+  "item.wpcworld.tungsten_sword": "Tungsten Sword",
+
 
   "item.wpcworld.raw_lithium": "Raw Lithium",
   "item.wpcworld.lithium_powder": "Lithium Powder",
@@ -23,12 +29,15 @@
   "item.wpcworld.cobalt_nugget": "Cobalt Nugget",
   "item.wpcworld.cobalt_ingot": "Cobalt Ingot",
 
-  "item.wpcworld.сoke": "Coke",
+  "item.wpcworld.coke": "Coke",
 
   "item.wpcworld.albite_crystal": "Albite Crystal",
   "item.wpcworld.resonant_seeds": "Resonant Seeds",
   "item.wpcworld.artifact_base": "Artifact Base",
   "item.wpcworld.albite_star": "Albite Star",
+
+  "item.wpcworld.raw_tungsten": "Raw Tungsten",
+  "item.wpcworld.tungsten_ingot": "Tungsten Ingot",
 
   "item.wpcworld.diamondbloom_seeds": "Diamondbloom Seeds",
   "item.wpcworld.diamond_shard": "Diamond Shard",
@@ -66,6 +75,10 @@
   "block.wpcworld.cobalt_blast_furnace": "Cobalt Blast Furnace",
 
   "block.wpcworld.deepslate_albite_ore": "Deepslate Albite Ore",
+
+  "block.wpcworld.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+  "block.wpcworld.raw_tungsten_block": "Block of Raw Tungsten",
+  "block.wpcworld.tungsten_block": "Block of Tungsten",
 
 
   "block.wpcworld.dualbloom_crop": "Dualbloom",

@@ -17,14 +17,6 @@ public class ModItemGroup {
             new Identifier(WPCWorld.MOD_ID, "wpc_world_group"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.wpc_world_group"))
                     .icon(() -> new ItemStack(LITHIUM_INGOT)).entries((displayContext, entries) -> {
-
-
-                        entries.add(SEA_TYRAN_BOOTS);
-                        entries.add(SEA_TYRAN_LEGGINGS);
-                        entries.add(SEA_TYRAN_CHESTPLATE);
-                        entries.add(SEA_TYRAN_HELMET);
-
-
                         entries.add(LITHIUM_POWDER);
                         entries.add(RAW_LITHIUM);
                         entries.add(LEPIDOLITE_ORE);
@@ -89,6 +81,10 @@ public class ModItemGroup {
                         entries.add(TUNGSTEN_INGOT);
                         entries.add(TUNGSTEN_BLOCK);
 
+                        entries.add(TUNGSTEN_HOE);
+                        entries.add(TUNGSTEN_EXCAVATOR_SHOVEL);
+                        entries.add(TUNGSTEN_EXCAVATOR);
+                        entries.add(TUNGSTEN_TREECUTTER);
                         entries.add(TUNGSTEN_SWORD);
 
                         entries.add(SPIKY_RECHARGE);

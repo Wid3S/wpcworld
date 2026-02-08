@@ -8,8 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.wides.wpcworld.WPCWorld;
 import net.wides.wpcworld.block.ModBlocks;
-import net.wides.wpcworld.item.custom.PrismOfTheSeasItem;
-import net.wides.wpcworld.item.custom.SpikyRechargeItem;
+import net.wides.wpcworld.item.custom.*;
 
 public class ModItems {
 
@@ -39,7 +38,7 @@ public class ModItems {
     public static final Item  LITHIUM_SHOVEL = registerItem("lithium_shovel",
             new ShovelItem(ModToolMaterial.LITHIUM, 1.5F, -3.0F, new FabricItemSettings()));
     public static final Item  LITHIUM_HOE = registerItem("lithium_hoe",
-            new HoeItem(ModToolMaterial.LITHIUM, -3, 0F, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.LITHIUM, -2, 0F, new FabricItemSettings()));
     public static final Item  LITHIUM_SWORD = registerItem("lithium_sword",
             new SwordItem(ModToolMaterial.LITHIUM, 3, -2.4F, new FabricItemSettings()));
 
@@ -79,6 +78,14 @@ public class ModItems {
     public static final Item  TUNGSTEN_INGOT = registerItem("tungsten_ingot",
             new Item(new FabricItemSettings()));
 
+    public static final Item  TUNGSTEN_EXCAVATOR = registerItem("tungsten_excavator",
+            new ExcavatorItem(ModToolMaterial.TUNGSTEN, 1, -2.8F, new FabricItemSettings()));
+    public static final Item  TUNGSTEN_TREECUTTER = registerItem("tungsten_treecutter",
+            new TreeCutterItem(ModToolMaterial.TUNGSTEN, 5, -3.1F, new FabricItemSettings()));
+    public static final Item  TUNGSTEN_EXCAVATOR_SHOVEL = registerItem("tungsten_excavator_shovel",
+            new ExcavatorShovelItem(ModToolMaterial.TUNGSTEN, 1.5F, -3.0F, new FabricItemSettings()));
+    public static final Item  TUNGSTEN_HOE = registerItem("tungsten_hoe",
+            new HoeItem(ModToolMaterial.TUNGSTEN, -6, 0F, new FabricItemSettings()));
     public static final Item  TUNGSTEN_SWORD = registerItem("tungsten_sword",
             new SwordItem(ModToolMaterial.TUNGSTEN, 3, -2.4F, new FabricItemSettings()));
 

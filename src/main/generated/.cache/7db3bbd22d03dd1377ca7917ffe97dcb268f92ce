@@ -1,10 +1,10 @@
-// 1.20.1	2026-02-07T23:58:08.9763459	WPC World/Block Loot Tables
+// 1.20.1	2026-02-08T10:05:36.1002593	WPC World/Block Loot Tables
 88443450a5fc0ff162a7f528a469adbaca3670eb data\wpcworld\loot_tables\blocks\deepslate_lepidolite_ore.json
 e06f3c9fde275607b81c07bb95cf5f98c2867eae data\wpcworld\loot_tables\blocks\raw_cobalt_block.json
 7da33191e10fd5a0da1e922e9f7edc7102bf78b0 data\wpcworld\loot_tables\blocks\raw_lithium_block.json
 37f22e8e7b1fa776d6ca52c11da8ee0f4003afdf data\wpcworld\loot_tables\blocks\heat_resistant_bricks.json
-c88744ce2683a737d0b02f2f64c07bc2b00236e6 data\wpcworld\loot_tables\blocks\cobalt_block.json
 dff8100baa389ab1053392bf66264664f2be9c98 data\wpcworld\loot_tables\blocks\foundry_furnace_controller.json
+c88744ce2683a737d0b02f2f64c07bc2b00236e6 data\wpcworld\loot_tables\blocks\cobalt_block.json
 6a1c0af283038b161c4e30aaa0fcdecc6b28a7c1 data\wpcworld\loot_tables\blocks\cobalt_ore.json
 bfeb5cc47b81dfc88bfd7700fc9befddeb96efbe data\wpcworld\loot_tables\blocks\lepidolite_ore.json
 97a8e871a4766c5179c23c1879788ad7b6380de3 data\wpcworld\loot_tables\blocks\air_intake.json

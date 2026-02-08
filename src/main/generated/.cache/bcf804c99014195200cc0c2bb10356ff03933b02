@@ -1,5 +1,6 @@
-// 1.20.1	2026-02-07T23:58:08.9647071	WPC World/Model Definitions
+// 1.20.1	2026-02-08T10:05:36.0982617	WPC World/Model Definitions
 1568bb0ed3ed6a7bb389ad035391bfd6fde7984d assets\wpcworld\models\block\deepslate_lepidolite_ore.json
+866af6113b6434ca14e1f54ec3124417582d4752 assets\wpcworld\models\item\tungsten_excavator.json
 6c316c2361b601761347ad3d32bdf6763c58c8a7 assets\wpcworld\models\item\cobalt_ingot.json
 dca4a4a4915ee9716fbe4c6a297f54cb0bf6ba07 assets\wpcworld\models\item\deepslate_albite_ore.json
 4eeb9b4c074efc22492098652ea11ae55565d852 assets\wpcworld\models\item\deepslate_lepidolite_ore.json
@@ -16,8 +17,8 @@ da4ec4e1f747c8f5113ab6f028a5115bbfdc59e7 assets\wpcworld\models\item\albite_crys
 3283945628607e7d61f79ed23c0c216ebbcc54b8 assets\wpcworld\models\item\spiky_recharge.json
 a172cf1fee08906d7c49ac0e8263424335c081b2 assets\wpcworld\models\item\heat_resistant_bricks.json
 7b8c008eea121698586180fc6c16a762350a45c6 assets\wpcworld\models\item\cobalt_sword.json
-dd4c87b9b81d8314b5183a508ee2d4abe1c26b16 assets\wpcworld\blockstates\lepidolite_ore.json
 cc6aefee6ecc6be8b62dee11846081e521d1c954 assets\wpcworld\models\item\sea_tyran_chestplate.json
+dd4c87b9b81d8314b5183a508ee2d4abe1c26b16 assets\wpcworld\blockstates\lepidolite_ore.json
 fa596b039c86f9c045a22586c208d144369d4e4c assets\wpcworld\models\item\diamond_shard.json
 0e68382669ce98c0c9ead55df254357e67d6a2aa assets\wpcworld\models\item\dual_energy_core.json
 743bc7f5788fc9d3a2a3a28ac4d47c46e35a3c0d assets\wpcworld\blockstates\cobalt_ore.json
@@ -31,8 +32,8 @@ c8d0a1dfc5d0c38d6edcf3cf607021bdb0d521a9 assets\wpcworld\blockstates\lithium_blo
 5cd643c270b659419e2d0ddd922f6ca7cb9fe50d assets\wpcworld\blockstates\cobalt_block.json
 93c008c7041463e4a85b12b6e2ebd019550afd3e assets\wpcworld\blockstates\tungsten_block.json
 1796edf90d5275e2f785a1b5661f7f2b645266f0 assets\wpcworld\models\item\raw_cobalt_block.json
-70b2ca75b7c4b5a2a2a71c37e4be3740ff3b0d52 assets\wpcworld\models\item\lithium_ingot.json
 27b258a2f4dc0b5de6674eb8120feb7a0f4c25dc assets\wpcworld\models\item\cobalt_axe.json
+70b2ca75b7c4b5a2a2a71c37e4be3740ff3b0d52 assets\wpcworld\models\item\lithium_ingot.json
 b28124f751d0921eee4334a39839cbccba6a2fa0 assets\wpcworld\models\item\cobalt_ore.json
 8a59ba965a9608e4f39ce4cd3df499821f92d9ef assets\wpcworld\models\item\dualbloom_leaf.json
 d92a5dd12288695dbf806ae941c7136b8ae28220 assets\wpcworld\models\item\diamond_pearl.json
@@ -54,6 +55,7 @@ e3fe814b6aabc7a48d75b9dd7f720e0d0a5d487f assets\wpcworld\blockstates\raw_tungste
 b3cef0fb2100f5684b45ab921c17bae12a46e6da assets\wpcworld\blockstates\deepslate_lepidolite_ore.json
 d4884a57f68fb9715e448239f8b1896799f87b9b assets\wpcworld\models\item\cobalt_pickaxe.json
 de9e0790dde106d93199749d723007aebe54f730 assets\wpcworld\models\item\cobalt_shovel.json
+608f9c857fbb01cf5da56d9dae7af558eececb11 assets\wpcworld\models\item\tungsten_treecutter.json
 dda61060389f14c2d25af6b750232523348fa748 assets\wpcworld\blockstates\deepslate_cobalt_ore.json
 25b3fb0fc53f7a510ae5b25bdc2448c567fdb1a9 assets\wpcworld\models\item\lithium_hoe.json
 090889437e6e5d8460ba0937eeacc4388d0edaa9 assets\wpcworld\models\item\raw_lithium_block.json
@@ -71,7 +73,9 @@ fd49c7229ff7e4485ec0cfb442f32660e0cce24d assets\wpcworld\models\item\cobalt_hoe.
 79d5df2c21202b6ee4f183b8d105e0c0ae461ad4 assets\wpcworld\models\item\tungsten_ingot.json
 c3f8c3f7231b034051c7c4fea93e38049e1ad598 assets\wpcworld\models\block\deepslate_tungsten_ore.json
 a3729bd9eea0ace572dcb6d77b2fb7d4382f1997 assets\wpcworld\models\block\raw_lithium_block.json
+06b5177f9f3a4728c40c82c88649526584d8a86c assets\wpcworld\models\item\tungsten_excavator_shovel.json
 0208a634cbb3161d5f552f6992266dcab93c21af assets\wpcworld\models\item\raw_lithium.json
+bcd048b0cac6d7d4fff43780c87f283a1a789d88 assets\wpcworld\models\item\tungsten_hoe.json
 fd495d9ea358654696b0b980adcd1eb4820215e0 assets\wpcworld\blockstates\heat_resistant_bricks.json
 ba090eb849b4844516aca52eed3718f405adc546 assets\wpcworld\models\item\raw_tungsten_block.json
 55584dcf113f5948f75d861b52b6017751dcfb63 assets\wpcworld\models\item\dualbloom_powder.json
