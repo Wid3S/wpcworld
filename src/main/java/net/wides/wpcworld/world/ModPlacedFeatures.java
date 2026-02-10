@@ -22,6 +22,8 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> DEEPSLATE_ALBITE_ORE_PLACED_KEY = registerKey("deepslate_albite_ore_placed");
 
+    public static final RegistryKey<PlacedFeature> DEEPSLATE_TUNGSTEN_ORE_PLACED_KEY = registerKey("deepslate_tungsten_ore_placed");
+
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
@@ -42,6 +44,10 @@ public class ModPlacedFeatures {
 
         register(context, DEEPSLATE_ALBITE_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_ALBITE_ORE_KEY),
                 ModOrePlacement.modifiersWithCount(1,
+                        HeightRangePlacementModifier.uniform(YOffset.fixed(-64), YOffset.fixed(0))));
+
+        register(context, DEEPSLATE_TUNGSTEN_ORE_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.DEEPSLATE_TUNGSTEN_ORE_KEY),
+                ModOrePlacement.modifiersWithCount(2,
                         HeightRangePlacementModifier.uniform(YOffset.fixed(-64), YOffset.fixed(0))));
     }
 

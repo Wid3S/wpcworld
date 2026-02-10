@@ -27,6 +27,8 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> DEEPSLATE_ALBITE_ORE_KEY = registryKey("deepslate_albite_ore");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> DEEPSLATE_TUNGSTEN_ORE_KEY = registryKey("deepslate_tungsten_ore");
+
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
@@ -48,6 +50,9 @@ public class ModConfiguredFeatures {
         List<OreFeatureConfig.Target> overworldDeepslateAlbiteOres =
                 List.of(OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_ALBITE_ORE.getDefaultState()));
 
+        List<OreFeatureConfig.Target> overworldDeepslateTungstenOres =
+                List.of(OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_TUNGSTEN_ORE.getDefaultState()));
+
 
         register(context, LITHIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldLithiumOres, 5));
         register(context, DEEPSLATE_LITHIUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldDeepslateLithiumOres, 3));
@@ -56,6 +61,8 @@ public class ModConfiguredFeatures {
         register(context, DEEPSLATE_COBALT_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldDeepslateCobaltOres, 4));
 
         register(context, DEEPSLATE_ALBITE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldDeepslateAlbiteOres, 4));
+
+        register(context, DEEPSLATE_TUNGSTEN_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldDeepslateTungstenOres, 4));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {

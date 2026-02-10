@@ -1,4 +1,4 @@
-// 1.20.1	2026-02-10T02:34:49.1871142	WPC World/Model Definitions
+// 1.20.1	2026-02-10T10:45:21.8929354	WPC World/Model Definitions
 1568bb0ed3ed6a7bb389ad035391bfd6fde7984d assets\wpcworld\models\block\deepslate_lepidolite_ore.json
 866af6113b6434ca14e1f54ec3124417582d4752 assets\wpcworld\models\item\tungsten_excavator.json
 6c316c2361b601761347ad3d32bdf6763c58c8a7 assets\wpcworld\models\item\cobalt_ingot.json
@@ -32,9 +32,9 @@ c8d0a1dfc5d0c38d6edcf3cf607021bdb0d521a9 assets\wpcworld\blockstates\lithium_blo
 88e5d3a843d8c4b705c1457e9698377ed94b4701 assets\wpcworld\models\block\cobalt_block.json
 5cd643c270b659419e2d0ddd922f6ca7cb9fe50d assets\wpcworld\blockstates\cobalt_block.json
 93c008c7041463e4a85b12b6e2ebd019550afd3e assets\wpcworld\blockstates\tungsten_block.json
+1796edf90d5275e2f785a1b5661f7f2b645266f0 assets\wpcworld\models\item\raw_cobalt_block.json
 70b2ca75b7c4b5a2a2a71c37e4be3740ff3b0d52 assets\wpcworld\models\item\lithium_ingot.json
 27b258a2f4dc0b5de6674eb8120feb7a0f4c25dc assets\wpcworld\models\item\cobalt_axe.json
-1796edf90d5275e2f785a1b5661f7f2b645266f0 assets\wpcworld\models\item\raw_cobalt_block.json
 b28124f751d0921eee4334a39839cbccba6a2fa0 assets\wpcworld\models\item\cobalt_ore.json
 8a59ba965a9608e4f39ce4cd3df499821f92d9ef assets\wpcworld\models\item\dualbloom_leaf.json
 d92a5dd12288695dbf806ae941c7136b8ae28220 assets\wpcworld\models\item\diamond_pearl.json
