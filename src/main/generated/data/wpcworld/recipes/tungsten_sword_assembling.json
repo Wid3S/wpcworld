@@ -1,0 +1,29 @@
+{
+  "type": "wpcworld:assembling",
+  "energy": 500,
+  "key": {
+    "A": {
+      "item": "wpcworld:artifact_base"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "wpcworld:obsidian_stick"
+    },
+    "T": {
+      "item": "wpcworld:tungsten_ingot"
+    }
+  },
+  "pattern": [
+    "   TT",
+    "  TTT",
+    " TAT ",
+    " ST  ",
+    "O    "
+  ],
+  "result": {
+    "count": 1,
+    "item": "wpcworld:tungsten_sword"
+  }
+}

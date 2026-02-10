@@ -85,11 +85,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ALBITE_STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARTIFACT_BASE, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.COMPRESSED_OBSIDIAN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.OBSIDIAN_STICK, Models.HANDHELD);
+
         itemModelGenerator.register(ModItems.RAW_TUNGSTEN, Models.GENERATED);
         itemModelGenerator.register(ModItems.TUNGSTEN_INGOT, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.TUNGSTEN_HOE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.TUNGSTEN_EXCAVATOR_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TUNGSTEN_MEGA_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TUNGSTEN_EXCAVATOR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TUNGSTEN_TREECUTTER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TUNGSTEN_SWORD, Models.HANDHELD);

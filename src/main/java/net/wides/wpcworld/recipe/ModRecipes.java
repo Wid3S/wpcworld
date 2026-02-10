@@ -16,5 +16,10 @@ public class ModRecipes {
                 CobaltBlastingRecipe.Serializer.INSTANCE);
         Registry.register(Registries.RECIPE_TYPE, new Identifier(WPCWorld.MOD_ID, CobaltBlastingRecipe.Type.ID),
                 CobaltBlastingRecipe.Type.INSTANCE);
+
+        Registry.register(Registries.RECIPE_SERIALIZER, new Identifier(WPCWorld.MOD_ID, AssemblingRecipe.Serializer.ID),
+                AssemblingRecipe.Serializer.INSTANCE);
+        Registry.register(Registries.RECIPE_TYPE, new Identifier(WPCWorld.MOD_ID, AssemblingRecipe.Type.ID),
+                AssemblingRecipe.Type.INSTANCE);
     }
 }

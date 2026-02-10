@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "wpcworld:compressed_obsidian"
+    }
+  },
+  "pattern": [
+    "C",
+    "C",
+    "C"
+  ],
+  "result": {
+    "item": "wpcworld:obsidian_stick"
+  },
+  "show_notification": true
+}

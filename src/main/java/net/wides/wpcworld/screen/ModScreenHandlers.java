@@ -16,6 +16,10 @@ public class ModScreenHandlers {
             Registry.register(Registries.SCREEN_HANDLER, new Identifier(WPCWorld.MOD_ID, "cobalt_blast_furnace_screen_handler"),
                     new ExtendedScreenHandlerType<>(CobaltBlastFurnaceScreenHandler::new));
 
+    public static final ScreenHandlerType<AssemblyTableScreenHandler> ASSEMBLY_TABLE_SCREEN_HANDLER =
+            Registry.register(Registries.SCREEN_HANDLER, new Identifier(WPCWorld.MOD_ID, "assembly_table_screen_handler"),
+                    new ExtendedScreenHandlerType<>(AssemblyTableScreenHandler::new));
+
 
     public static void registerScreenHandler() {
         WPCWorld.LOGGER.info("Registering Screen Handlers for " + WPCWorld.MOD_ID);

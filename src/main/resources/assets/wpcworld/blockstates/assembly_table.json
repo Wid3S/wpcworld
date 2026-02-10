@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "wpcworld:block/assembly_table" },
+    "facing=south": { "model": "wpcworld:block/assembly_table", "y": 180 },
+    "facing=west":  { "model": "wpcworld:block/assembly_table", "y": 270 },
+    "facing=east":  { "model": "wpcworld:block/assembly_table", "y": 90 }
+  }
+}

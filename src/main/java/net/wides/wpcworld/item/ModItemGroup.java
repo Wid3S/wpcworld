@@ -65,6 +65,10 @@ public class ModItemGroup {
 
                         entries.add(DIAMOND_CARROT);
 
+                        entries.add(COMPRESSED_OBSIDIAN);
+                        entries.add(OBSIDIAN_STICK);
+                        entries.add(ASSEMBLY_TABLE);
+
                         entries.add(DUALBLOOM_SEEDS);
                         entries.add(DUALBLOOM_POWDER);
                         entries.add(DUALBLOOM_LEAF);
@@ -82,7 +86,7 @@ public class ModItemGroup {
                         entries.add(TUNGSTEN_BLOCK);
 
                         entries.add(TUNGSTEN_HOE);
-                        entries.add(TUNGSTEN_EXCAVATOR_SHOVEL);
+                        entries.add(TUNGSTEN_MEGA_SHOVEL);
                         entries.add(TUNGSTEN_EXCAVATOR);
                         entries.add(TUNGSTEN_TREECUTTER);
                         entries.add(TUNGSTEN_SWORD);

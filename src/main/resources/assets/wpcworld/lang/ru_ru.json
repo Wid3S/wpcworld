@@ -11,6 +11,12 @@
   "item.wpcworld.cobalt_axe": "Кобальтовый топор",
   "item.wpcworld.cobalt_sword": "Кобальтовый меч",
 
+  "item.wpcworld.tungsten_hoe": "Вольфрамовая мотыга",
+  "item.wpcworld.tungsten_mega_shovel": "Вольфрамовая мега-лопата",
+  "item.wpcworld.tungsten_excavator": "Вольфратовый экскаватор",
+  "item.wpcworld.tungsten_treecutter": "Вольфрамовый лесоруб",
+  "item.wpcworld.tungsten_sword": "Вольфрамовый меч",
+
 
   "item.wpcworld.raw_lithium": "Рудной литий",
   "item.wpcworld.lithium_powder": "Литиевая пыль",
@@ -68,6 +74,10 @@
 
   "block.wpcworld.deepslate_albite_ore": "Альбитоносный глубинный сланец",
 
+  "block.wpcworld.deepslate_tungsten_ore": "Вольфрамоносный глубинный сланец",
+  "block.wpcworld.raw_tungsten_block": "Блок рудного вольфрама",
+  "block.wpcworld.tungsten_block": "Вольфрамовый блок",
+
 
   "block.wpcworld.diamondbloom_crop": "Алмазоцвет",
   "block.wpcworld.dualbloom_crop": "Двойноцвет",
@@ -96,6 +106,9 @@
 
 
   "message.wpcworld.foundry.invalid_structure": "Литейная печь собрана неправильно или не полностью",
+  "message.wpcworld.cobalt.invalid_structure": "Доменная печь собрана неправильно или не полностью",
+  "message.wpcworld.excavators.mode.excavator": "Режим: Экскаватор",
+  "message.wpcworld.excavators.mode.normal": "Режим: Обычный",
 
 
   "itemgroup.wpc_world_group": "WPC: Предметы"

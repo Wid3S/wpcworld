@@ -1,6 +1,6 @@
-// 1.20.1	2026-02-08T10:05:36.0810391	WPC World/Tags for minecraft:block
+// 1.20.1	2026-02-10T02:34:49.1788701	WPC World/Tags for minecraft:block
 75ef0cc12013e5b69be9dfb2349878da6906e8c5 data\minecraft\tags\blocks\needs_iron_tool.json
-adbccce4757df5a1cd927bd64454642b4533bc42 data\minecraft\tags\blocks\needs_diamond_tool.json
+f7340f1c94a700c7223f860873d7b35c1cd0da3d data\minecraft\tags\blocks\needs_diamond_tool.json
 1cddd446e83e60145388d5a4190de92399691b66 data\wpcworld\tags\blocks\heat_resistant_blocks.json
-87fdb3775bd03bb90a34c2eee17977fa802c8882 data\minecraft\tags\blocks\mineable\pickaxe.json
 604c9b14344350e38d14c49c0893f043981cf7a1 data\minecraft\tags\blocks\needs_stone_tool.json
+f8a471d5fc79f9ab7bb485307c988e25ea268f13 data\minecraft\tags\blocks\mineable\pickaxe.json

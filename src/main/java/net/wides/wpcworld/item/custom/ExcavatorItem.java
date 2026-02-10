@@ -43,7 +43,7 @@ public class ExcavatorItem extends MiningToolItem {
             tag.putBoolean(MODE_KEY, !mode);
 
             user.sendMessage(
-                    Text.literal("Mode: " + (!mode ? "Excavator (3x3)" : "Normal")),
+                    Text.translatable("message.wpcworld.excavators.mode" + (!mode ? ".excavator" : ".normal")),
                     true
             );
         }

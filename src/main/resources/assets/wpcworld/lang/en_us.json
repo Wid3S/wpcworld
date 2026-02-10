@@ -12,7 +12,7 @@
   "item.wpcworld.cobalt_sword": "Cobalt Sword",
 
   "item.wpcworld.tungsten_hoe": "Tungsten Hoe",
-  "item.wpcworld.tungsten_excavator_shovel": "Tungsten Mega Shovel",
+  "item.wpcworld.tungsten_mega_shovel": "Tungsten Mega Shovel",
   "item.wpcworld.tungsten_excavator": "Tungsten Excavator",
   "item.wpcworld.tungsten_treecutter": "Tungsten Treecutter",
   "item.wpcworld.tungsten_sword": "Tungsten Sword",
@@ -45,6 +45,9 @@
   "item.wpcworld.diamond_pearl": "Diamond Pearl",
 
   "item.wpcworld.diamond_carrot": "Diamond Carrot",
+
+  "item.wpcworld.compressed_obsidian": "Compressed Obsidian",
+  "item.wpcworld.obsidian_stick": "Obsidian Stick",
 
   "item.wpcworld.dualbloom_seeds": "Dualbloom Seeds",
   "item.wpcworld.dualbloom_leaf": "Dualbloom Leaf",
@@ -80,6 +83,7 @@
   "block.wpcworld.raw_tungsten_block": "Block of Raw Tungsten",
   "block.wpcworld.tungsten_block": "Block of Tungsten",
 
+  "block.wpcworld.assembly_table": "Assembly Table",
 
   "block.wpcworld.dualbloom_crop": "Dualbloom",
   "block.wpcworld.diamondbloom_crop": "Diamondbloom",
@@ -105,9 +109,12 @@
   "station_name.wpcworld.cobalt_blast_furnace": "Blast Furnace",
   "emi.category.wpcworld.cobalt_blasting": "Cobalt Blasting",
 
+  "station_name.wpcworld.assembly_table": "Assembly Table",
 
-  "message.wpcworld.foundry.invalid_structure": "Foundry structure is incomplete or built incorrectly",
-
+  "message.wpcworld.foundry.invalid_structure": "Foundry Furnace structure is incomplete or built incorrectly",
+  "message.wpcworld.cobalt.invalid_structure": "Cobalt Blast Furnace structure is incomplete or built incorrectly",
+  "message.wpcworld.excavators.mode.excavator": "Mode: Excavator",
+  "message.wpcworld.excavators.mode.normal": "Mode: Normal",
 
   "itemgroup.wpc_world_group": "WPC: Items"
 }

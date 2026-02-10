@@ -82,8 +82,8 @@ public class ModItems {
             new ExcavatorItem(ModToolMaterial.TUNGSTEN, 1, -2.8F, new FabricItemSettings()));
     public static final Item  TUNGSTEN_TREECUTTER = registerItem("tungsten_treecutter",
             new TreeCutterItem(ModToolMaterial.TUNGSTEN, 5, -3.1F, new FabricItemSettings()));
-    public static final Item  TUNGSTEN_EXCAVATOR_SHOVEL = registerItem("tungsten_excavator_shovel",
-            new ExcavatorShovelItem(ModToolMaterial.TUNGSTEN, 1.5F, -3.0F, new FabricItemSettings()));
+    public static final Item  TUNGSTEN_MEGA_SHOVEL = registerItem("tungsten_mega_shovel",
+            new MegaShovelItem(ModToolMaterial.TUNGSTEN, 1.5F, -3.0F, new FabricItemSettings()));
     public static final Item  TUNGSTEN_HOE = registerItem("tungsten_hoe",
             new HoeItem(ModToolMaterial.TUNGSTEN, -6, 0F, new FabricItemSettings()));
     public static final Item  TUNGSTEN_SWORD = registerItem("tungsten_sword",
@@ -107,6 +107,11 @@ public class ModItems {
 
     public static final Item DIAMOND_CARROT = registerItem("diamond_carrot",
             new Item(new FabricItemSettings().food(ModFoodComponents.DIAMOND_CARROT)));
+
+    public static final Item COMPRESSED_OBSIDIAN = registerItem("compressed_obsidian",
+            new Item(new FabricItemSettings()));
+    public static final Item OBSIDIAN_STICK = registerItem("obsidian_stick",
+            new Item(new FabricItemSettings()));
 
     public static final Item DUALBLOOM_SEEDS = registerItem("dualbloom_seeds",
             new AliasedBlockItem(ModBlocks.DUALBLOOM_CROP, new FabricItemSettings()));

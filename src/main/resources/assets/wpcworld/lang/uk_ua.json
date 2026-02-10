@@ -11,6 +11,12 @@
   "item.wpcworld.cobalt_axe": "Кобальтова сокира",
   "item.wpcworld.cobalt_sword": "Кобальтовий меч",
 
+  "item.wpcworld.tungsten_hoe": "Вольфрамова мотика",
+  "item.wpcworld.tungsten_mega_shovel": "Вольфрамова мега-лопата",
+  "item.wpcworld.tungsten_excavator": "Вольфрамовий екскаватор",
+  "item.wpcworld.tungsten_treecutter": "Вольфрамовий лісоруб",
+  "item.wpcworld.tungsten_sword": "Вольфрамовий меч",
+
   "item.wpcworld.raw_lithium": "Рудний літій",
   "item.wpcworld.lithium_powder": "Літієвий порошок",
   "item.wpcworld.lithium_nugget": "Літієвий уламок",
@@ -65,6 +71,10 @@
 
   "block.wpcworld.deepslate_albite_ore": "Альбітовмісний глибинний сланець",
 
+  "block.wpcworld.deepslate_tungsten_ore": "Вольфрамоносний глибинний сланець",
+  "block.wpcworld.raw_tungsten_block": "Блок рудного вольфраму",
+  "block.wpcworld.tungsten_block": "Вольфрамовий блок",
+
   "block.wpcworld.diamondbloom_crop": "Алмазоцвіт",
   "block.wpcworld.dualbloom_crop": "Двоцвіт",
 
@@ -86,6 +96,9 @@
   "emi.category.wpcworld.cobalt_blasting": "Доменна піч",
 
   "message.wpcworld.foundry.invalid_structure": "Ливарну піч зібрано неправильно або не повністю",
+  "message.wpcworld.cobalt.invalid_structure": "Доменна піч зібрана неправильно або не повністю",
+  "message.wpcworld.excavators.mode.excavator": "Режим: Екскаватор",
+  "message.wpcworld.excavators.mode.normal": "Режим: Звичайний",
 
   "itemgroup.wpc_world_group": "WPC: Предмети"
 }

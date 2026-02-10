@@ -11,11 +11,10 @@ import net.wides.wpcworld.item.ModItemGroup;
 import net.wides.wpcworld.item.ModItems;
 import net.wides.wpcworld.recipe.ModRecipes;
 import net.wides.wpcworld.screen.ModScreenHandlers;
-import net.wides.wpcworld.util.ExcavatorShovelUsageEvent;
+import net.wides.wpcworld.util.MegaShovelUsageEvent;
 import net.wides.wpcworld.util.ExcavatorUsageEvent;
 import net.wides.wpcworld.util.ModRegistries;
 import net.wides.wpcworld.util.TreeCutterUsageEvent;
-import net.wides.wpcworld.world.ModConfiguredFeatures;
 import net.wides.wpcworld.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -44,7 +43,7 @@ public class WPCWorld implements ModInitializer {
 
         ModEffects.registerEffects();
 
-        PlayerBlockBreakEvents.BEFORE.register(new ExcavatorShovelUsageEvent());
+        PlayerBlockBreakEvents.BEFORE.register(new MegaShovelUsageEvent());
         PlayerBlockBreakEvents.BEFORE.register(new ExcavatorUsageEvent());
         PlayerBlockBreakEvents.BEFORE.register(new TreeCutterUsageEvent());
 	}

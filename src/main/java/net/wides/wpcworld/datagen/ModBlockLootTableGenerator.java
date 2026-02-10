@@ -30,6 +30,8 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_TUNGSTEN_BLOCK);
         addDrop(ModBlocks.TUNGSTEN_BLOCK);
 
+        addDrop(ModBlocks.ASSEMBLY_TABLE);
+
         addDrop(ModBlocks.DEEPSLATE_LEPIDOLITE_ORE, oreDrops(ModBlocks.DEEPSLATE_LEPIDOLITE_ORE, ModItems.RAW_LITHIUM));
         addDrop(ModBlocks.LEPIDOLITE_ORE, oreDrops(ModBlocks.LEPIDOLITE_ORE, ModItems.RAW_LITHIUM));
 

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "wpcworld:block/assembly_table_side",
+    "south": "wpcworld:block/assembly_table_side",
+    "east":  "wpcworld:block/assembly_table_side",
+    "west":  "wpcworld:block/assembly_table_side",
+    "up":    "wpcworld:block/assembly_table_top",
+    "down":  "wpcworld:block/assembly_table_bottom",
+    "particle": "wpcworld:block/assembly_table_side"
+  }
+}

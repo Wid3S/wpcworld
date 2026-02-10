@@ -8,14 +8,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.wides.wpcworld.item.custom.ExcavatorItem;
-import net.wides.wpcworld.item.custom.ExcavatorShovelItem;
+import net.wides.wpcworld.item.custom.MegaShovelItem;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class ExcavatorShovelUsageEvent implements PlayerBlockBreakEvents.Before {
+public class MegaShovelUsageEvent implements PlayerBlockBreakEvents.Before {
     /*
      * Inspired by CoFHCore AreaEffectEvents
      * https://github.com/CoFH/CoFHCore
@@ -32,7 +31,7 @@ public class ExcavatorShovelUsageEvent implements PlayerBlockBreakEvents.Before 
 
         ItemStack mainHandItem = player.getMainHandStack();
 
-        if (!(mainHandItem.getItem() instanceof ExcavatorShovelItem)) {
+        if (!(mainHandItem.getItem() instanceof MegaShovelItem)) {
             return true;
         }
 
@@ -40,7 +39,7 @@ public class ExcavatorShovelUsageEvent implements PlayerBlockBreakEvents.Before 
             return true;
         }
 
-        if (!mainHandItem.getOrCreateNbt().getBoolean(ExcavatorShovelItem.MODE_KEY)) {
+        if (!mainHandItem.getOrCreateNbt().getBoolean(MegaShovelItem.MODE_KEY)) {
             return true;
         }
 
@@ -48,7 +47,7 @@ public class ExcavatorShovelUsageEvent implements PlayerBlockBreakEvents.Before 
             return true;
         }
 
-        for (BlockPos target : ExcavatorShovelItem.getBlocksToBeDestroyed(1, pos, serverPlayer)) {
+        for (BlockPos target : MegaShovelItem.getBlocksToBeDestroyed(1, pos, serverPlayer)) {
 
             if (pos.equals(target)) continue;
 

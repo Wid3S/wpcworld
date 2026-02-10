@@ -60,6 +60,9 @@ public class ModBlocks {
     public static final Block TUNGSTEN_BLOCK = registerBlock("tungsten_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).strength(7.0f, 7.0f)));
 
+    public static final Block ASSEMBLY_TABLE = registerBlock("assembly_table",
+            new AssemblyTableBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).strength(6.0f, 6.0f)));
+
     public static final Block DUALBLOOM_CROP = registerBlockWithoutBlockItem("dualbloom_crop",
             new DualBloomCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 

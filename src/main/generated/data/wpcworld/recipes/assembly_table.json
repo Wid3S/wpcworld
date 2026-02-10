@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "wpcworld:tungsten_ingot"
+    },
+    "*": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "###",
+    "***",
+    "#*#"
+  ],
+  "result": {
+    "item": "wpcworld:assembly_table"
+  },
+  "show_notification": true
+}

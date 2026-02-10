@@ -19,11 +19,11 @@ import net.minecraft.world.World;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ExcavatorShovelItem extends MiningToolItem {
+public class MegaShovelItem extends MiningToolItem {
 
     public static final String MODE_KEY = "ExcavatorMode";
 
-    public ExcavatorShovelItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
+    public MegaShovelItem(ToolMaterial material, float attackDamage, float attackSpeed, Settings settings) {
         super(attackDamage, attackSpeed, material, BlockTags.SHOVEL_MINEABLE, settings);
     }
 
@@ -38,7 +38,7 @@ public class ExcavatorShovelItem extends MiningToolItem {
             tag.putBoolean(MODE_KEY, !mode);
 
             user.sendMessage(
-                    Text.literal("Mode: " + (!mode ? "Excavator (3x3)" : "Normal")),
+                    Text.translatable("message.wpcworld.excavators.mode" + (!mode ? ".excavator" : ".normal")),
                     true
             );
         }

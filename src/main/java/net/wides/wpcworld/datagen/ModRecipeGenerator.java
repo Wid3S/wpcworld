@@ -10,6 +10,7 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.wides.wpcworld.block.ModBlocks;
+import net.wides.wpcworld.datagen.recipe.AssemblingRecipeBuilder;
 import net.wides.wpcworld.datagen.recipe.CobaltBlastingRecipeBuilder;
 import net.wides.wpcworld.datagen.recipe.FoundrySmeltingRecipeBuilder;
 import net.wides.wpcworld.item.ModItems;
@@ -416,6 +417,16 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
                 .offerTo(consumer);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ASSEMBLY_TABLE)
+                .pattern("###")
+                .pattern("***")
+                .pattern("#*#")
+                .input('*', Blocks.OBSIDIAN)
+                .input('#', ModItems.TUNGSTEN_INGOT)
+                .criterion(hasItem(Blocks.OBSIDIAN), conditionsFromItem(Blocks.OBSIDIAN))
+                .offerTo(consumer);
+
+
         // -------- FOUNDRY --------
 
         FoundrySmeltingRecipeBuilder.smelting(
@@ -467,6 +478,96 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 ModItems.TUNGSTEN_INGOT, 1,
                 500, 1.5f
         ).offerTo(consumer);
+
+        // -------- ASSEMBLING --------
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_HOE)
+                .pattern("TTTTT")
+                .pattern("T OAT")
+                .pattern("  SOT")
+                .pattern(" S   ")
+                .pattern("O    ")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('S', ModItems.OBSIDIAN_STICK)
+                .input('O', Blocks.OBSIDIAN)
+                .energyCost(500)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_MEGA_SHOVEL)
+                .pattern("   TT")
+                .pattern("  TTT")
+                .pattern("  AT ")
+                .pattern(" S   ")
+                .pattern("O    ")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('S', ModItems.OBSIDIAN_STICK)
+                .input('O', Blocks.OBSIDIAN)
+                .energyCost(500)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_EXCAVATOR)
+                .pattern("TTTTT")
+                .pattern("  OAT")
+                .pattern("  SOT")
+                .pattern(" S  T")
+                .pattern("O   T")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('S', ModItems.OBSIDIAN_STICK)
+                .input('O', Blocks.OBSIDIAN)
+                .energyCost(500)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_TREECUTTER)
+                .pattern("TTTTT")
+                .pattern("TTOAT")
+                .pattern("T SOT")
+                .pattern(" S   ")
+                .pattern("O    ")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('S', ModItems.OBSIDIAN_STICK)
+                .input('O', Blocks.OBSIDIAN)
+                .energyCost(500)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_SWORD)
+                .pattern("   TT")
+                .pattern("  TTT")
+                .pattern(" TAT ")
+                .pattern(" ST  ")
+                .pattern("O    ")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('S', ModItems.OBSIDIAN_STICK)
+                .input('O', Blocks.OBSIDIAN)
+                .energyCost(500)
+                .count(1)
+                .offerTo(consumer);
+
+        // -------- MISC --------
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COMPRESSED_OBSIDIAN)
+                .pattern("OOO")
+                .pattern("O O")
+                .pattern("OOO")
+                .input('O', Blocks.OBSIDIAN)
+                .criterion(hasItem(Blocks.OBSIDIAN), conditionsFromItem(Blocks.OBSIDIAN))
+                .offerTo(consumer, id("compressed_obsidian"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.OBSIDIAN_STICK)
+                .pattern("C")
+                .pattern("C")
+                .pattern("C")
+                .input('C', ModItems.COMPRESSED_OBSIDIAN)
+                .criterion(hasItem(Blocks.OBSIDIAN), conditionsFromItem(Blocks.OBSIDIAN))
+                .offerTo(consumer, id("obsidian_stick"));
 
         offerSmelting(consumer, List.of(ModItems.LITHIUM_POWDER), RecipeCategory.MISC, ModItems.LITHIUM_NUGGET, 0.1f, 200, "lithium");
         offerBlasting(consumer, List.of(ModItems.LITHIUM_POWDER), RecipeCategory.MISC, ModItems.LITHIUM_NUGGET, 0.1f, 100, "lithium");

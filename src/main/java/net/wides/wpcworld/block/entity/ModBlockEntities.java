@@ -19,6 +19,11 @@ public class ModBlockEntities {
                     FabricBlockEntityTypeBuilder.create(CobaltBlastFurnaceBlockEntity::new,
                             ModBlocks.COBALT_BLAST_FURNACE).build(null));
 
+    public static final BlockEntityType<AssemblyTableBlockEntity> ASSEMBLY_TABLE_BE =
+            Registry.register(Registries.BLOCK_ENTITY_TYPE, new Identifier(WPCWorld.MOD_ID, "assembly_table_block_entity"),
+                    FabricBlockEntityTypeBuilder.create(AssemblyTableBlockEntity::new,
+                            ModBlocks.ASSEMBLY_TABLE).build(null));
+
     public static void registerBlockEntities() {
         WPCWorld.LOGGER.info("Registering Block Entities for " + WPCWorld.MOD_ID);
     }
