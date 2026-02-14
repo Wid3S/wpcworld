@@ -1,4 +1,20 @@
 {
+  "item.wpcworld.lithium_helmet": "Lithium Helmet",
+  "item.wpcworld.lithium_chestplate": "Lithium Chestplate",
+  "item.wpcworld.lithium_leggings": "Lithium Leggings",
+  "item.wpcworld.lithium_boots": "Lithium Boots",
+
+  "item.wpcworld.cobalt_helmet": "Cobalt Helmet",
+  "item.wpcworld.cobalt_chestplate": "Cobalt Chestplate",
+  "item.wpcworld.cobalt_leggings": "Cobalt Leggings",
+  "item.wpcworld.cobalt_boots": "Cobalt Boots",
+
+  "item.wpcworld.tungsten_helmet": "Tungsten Helmet",
+  "item.wpcworld.tungsten_chestplate": "Tungsten Chestplate",
+  "item.wpcworld.tungsten_leggings": "Tungsten Leggings",
+  "item.wpcworld.tungsten_boots": "Tungsten Boots",
+
+
   "item.wpcworld.lithium_hoe": "Lithium Hoe",
   "item.wpcworld.lithium_shovel": "Lithium Shovel",
   "item.wpcworld.lithium_pickaxe": "Lithium Pickaxe",
@@ -98,12 +114,13 @@
 
 
   "station_name.wpcworld.foundry_furnace_controller": "Foundry Furnace",
-  "emi.category.wpcworld.foundry_smelting": "Foundry Furnace",
+  "emi.category.wpcworld.foundry_smelting": "Foundry Smelting",
 
-  "station_name.wpcworld.cobalt_blast_furnace": "Blast Furnace",
+  "station_name.wpcworld.cobalt_blast_furnace": "Cobalt Blast Furnace",
   "emi.category.wpcworld.cobalt_blasting": "Cobalt Blasting",
 
   "station_name.wpcworld.assembly_table": "Assembly Table",
+  "emi.category.wpcworld.assembling": "Assembly",
 
   "message.wpcworld.foundry.invalid_structure": "Foundry Furnace structure is incomplete or built incorrectly",
   "message.wpcworld.cobalt.invalid_structure": "Cobalt Blast Furnace structure is incomplete or built incorrectly",

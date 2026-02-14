@@ -1,0 +1,13 @@
+{
+  "type": "wpcworld:cobalt_blasting",
+  "cook_time": 500,
+  "experience": 1.5,
+  "ingredient": {
+    "item": "wpcworld:deepslate_tungsten_ore"
+  },
+  "ingredient_count": 1,
+  "result": {
+    "count": 1,
+    "item": "wpcworld:tungsten_ingot"
+  }
+}

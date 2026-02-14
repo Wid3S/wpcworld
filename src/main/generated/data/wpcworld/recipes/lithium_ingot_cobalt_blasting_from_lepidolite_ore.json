@@ -1,0 +1,13 @@
+{
+  "type": "wpcworld:cobalt_blasting",
+  "cook_time": 250,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "wpcworld:lepidolite_ore"
+  },
+  "ingredient_count": 1,
+  "result": {
+    "count": 1,
+    "item": "wpcworld:lithium_ingot"
+  }
+}

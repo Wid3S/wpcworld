@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "wpcworld:cobalt_ingot"
+    }
+  },
+  "pattern": [
+    "NNN",
+    "N N",
+    "N N"
+  ],
+  "result": {
+    "item": "wpcworld:cobalt_leggings"
+  },
+  "show_notification": true
+}

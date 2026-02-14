@@ -1,0 +1,29 @@
+{
+  "type": "wpcworld:assembling",
+  "energy": 250,
+  "key": {
+    "A": {
+      "item": "wpcworld:artifact_base"
+    },
+    "C": {
+      "item": "wpcworld:compressed_obsidian"
+    },
+    "N": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "T": {
+      "item": "wpcworld:tungsten_ingot"
+    }
+  },
+  "pattern": [
+    "C   C",
+    "T   T",
+    "TCNCT",
+    "TTATT",
+    "TTTTT"
+  ],
+  "result": {
+    "count": 1,
+    "item": "wpcworld:tungsten_chestplate"
+  }
+}

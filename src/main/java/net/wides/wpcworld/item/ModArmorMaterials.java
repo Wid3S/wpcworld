@@ -13,12 +13,24 @@ import java.util.EnumMap;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SEA_TYRAN("sea_tyran", 52, Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+    TUNGSTEN("tungsten", 45, Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
         map.put(ArmorItem.Type.BOOTS, 5);
         map.put(ArmorItem.Type.LEGGINGS, 7);
         map.put(ArmorItem.Type.CHESTPLATE, 9);
         map.put(ArmorItem.Type.HELMET, 5);
-    }), 10, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5F, 0.2F, () -> Ingredient.ofItems(new ItemConvertible[]{Items.NETHERITE_INGOT}));
+    }), 8, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.5F, 0.15F, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.TUNGSTEN_INGOT})),
+    COBALT("cobalt", 35, Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+        map.put(ArmorItem.Type.BOOTS, 3);
+        map.put(ArmorItem.Type.LEGGINGS, 6);
+        map.put(ArmorItem.Type.CHESTPLATE, 8);
+        map.put(ArmorItem.Type.HELMET, 3);
+    }), 9, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5F, 0F, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.COBALT_INGOT})),
+    LITHIUM("lithium", 24, Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {
+        map.put(ArmorItem.Type.BOOTS, 3);
+        map.put(ArmorItem.Type.LEGGINGS, 5);
+        map.put(ArmorItem.Type.CHESTPLATE, 6);
+        map.put(ArmorItem.Type.HELMET, 3);
+    }), 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1F, 0F, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.LITHIUM_INGOT}));
 
     public static final StringIdentifiable.Codec<ArmorMaterials> CODEC = StringIdentifiable.createCodec(ArmorMaterials::values);
     private static final EnumMap<ArmorItem.Type, Integer> BASE_DURABILITY = Util.make(new EnumMap(ArmorItem.Type.class), (map) -> {

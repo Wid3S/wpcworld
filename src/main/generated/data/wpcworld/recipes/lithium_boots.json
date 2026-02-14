@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "wpcworld:lithium_ingot"
+    }
+  },
+  "pattern": [
+    "N N",
+    "N N"
+  ],
+  "result": {
+    "item": "wpcworld:lithium_boots"
+  },
+  "show_notification": true
+}

@@ -32,6 +32,11 @@ public class ModItemGroup {
                         entries.add(LITHIUM_AXE);
                         entries.add(LITHIUM_SWORD);
 
+                        entries.add(LITHIUM_HELMET);
+                        entries.add(LITHIUM_CHESTPLATE);
+                        entries.add(LITHIUM_LEGGINGS);
+                        entries.add(LITHIUM_BOOTS);
+
                         entries.add(HEAT_RESISTANT_BRICK);
                         entries.add(HEAT_RESISTANT_BRICKS);
                         entries.add(HEAT_RESISTANT_PILLAR);
@@ -51,6 +56,11 @@ public class ModItemGroup {
                         entries.add(COBALT_PICKAXE);
                         entries.add(COBALT_AXE);
                         entries.add(COBALT_SWORD);
+
+                        entries.add(COBALT_HELMET);
+                        entries.add(COBALT_CHESTPLATE);
+                        entries.add(COBALT_LEGGINGS);
+                        entries.add(COBALT_BOOTS);
 
                         entries.add(COKE);
                         entries.add(AIR_INTAKE);
@@ -90,6 +100,11 @@ public class ModItemGroup {
                         entries.add(TUNGSTEN_EXCAVATOR);
                         entries.add(TUNGSTEN_TREECUTTER);
                         entries.add(TUNGSTEN_SWORD);
+
+                        entries.add(TUNGSTEN_HELMET);
+                        entries.add(TUNGSTEN_CHESTPLATE);
+                        entries.add(TUNGSTEN_LEGGINGS);
+                        entries.add(TUNGSTEN_BOOTS);
 
                         entries.add(SPIKY_RECHARGE);
                         entries.add(PRISM_OF_THE_SEAS);

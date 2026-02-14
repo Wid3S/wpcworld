@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wpcworld:lithium_ingot_foundry_smelting_from_lepidolite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wpcworld:lithium_ingot_foundry_smelting_from_lepidolite_ore"
+    ]
+  },
+  "sends_telemetry_event": true
+}

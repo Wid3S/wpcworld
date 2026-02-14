@@ -60,6 +60,36 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LITHIUM_INGOT), conditionsFromItem(ModItems.LITHIUM_INGOT))
                 .offerTo(consumer, id("lithium_nuggets_from_ingot"));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LITHIUM_HELMET, 1)
+                .pattern("NNN")
+                .pattern("N N")
+                .input('N', ModItems.LITHIUM_INGOT)
+                .criterion(hasItem(ModItems.LITHIUM_INGOT), conditionsFromItem(ModItems.LITHIUM_INGOT))
+                .offerTo(consumer, id("lithium_helmet"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LITHIUM_CHESTPLATE, 1)
+                .pattern("N N")
+                .pattern("NNN")
+                .pattern("NNN")
+                .input('N', ModItems.LITHIUM_INGOT)
+                .criterion(hasItem(ModItems.LITHIUM_INGOT), conditionsFromItem(ModItems.LITHIUM_INGOT))
+                .offerTo(consumer, id("lithium_chestplate"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LITHIUM_LEGGINGS, 1)
+                .pattern("NNN")
+                .pattern("N N")
+                .pattern("N N")
+                .input('N', ModItems.LITHIUM_INGOT)
+                .criterion(hasItem(ModItems.LITHIUM_INGOT), conditionsFromItem(ModItems.LITHIUM_INGOT))
+                .offerTo(consumer, id("lithium_leggings"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LITHIUM_BOOTS, 1)
+                .pattern("N N")
+                .pattern("N N")
+                .input('N', ModItems.LITHIUM_INGOT)
+                .criterion(hasItem(ModItems.LITHIUM_INGOT), conditionsFromItem(ModItems.LITHIUM_INGOT))
+                .offerTo(consumer, id("lithium_boots"));
+
         // -------- COBALT --------
 
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COBALT_INGOT, 9)
@@ -83,11 +113,11 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.COBALT_NUGGET), conditionsFromItem(ModItems.COBALT_NUGGET))
                 .offerTo(consumer, id("cobalt_ingot_from_nuggets"));
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.COBALT_GRATE, 4)
-                .pattern(" N ")
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.COBALT_GRATE, 1)
+                .pattern(" NN")
                 .pattern("N N")
-                .pattern(" N ")
-                .input('N', ModBlocks.COBALT_BLOCK)
+                .pattern("NN ")
+                .input('N', ModItems.COBALT_INGOT)
                 .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
                 .offerTo(consumer, id("cobalt_grate_from_blocks"));
 
@@ -95,6 +125,36 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input(ModItems.COBALT_INGOT)
                 .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
                 .offerTo(consumer, id("cobalt_nuggets_from_ingot"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COBALT_HELMET, 1)
+                .pattern("NNN")
+                .pattern("N N")
+                .input('N', ModItems.COBALT_INGOT)
+                .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
+                .offerTo(consumer, id("cobalt_helmet"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COBALT_CHESTPLATE, 1)
+                .pattern("N N")
+                .pattern("NNN")
+                .pattern("NNN")
+                .input('N', ModItems.COBALT_INGOT)
+                .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
+                .offerTo(consumer, id("cobalt_chestplate"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COBALT_LEGGINGS, 1)
+                .pattern("NNN")
+                .pattern("N N")
+                .pattern("N N")
+                .input('N', ModItems.COBALT_INGOT)
+                .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
+                .offerTo(consumer, id("cobalt_leggings"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.COBALT_BOOTS, 1)
+                .pattern("N N")
+                .pattern("N N")
+                .input('N', ModItems.COBALT_INGOT)
+                .criterion(hasItem(ModItems.COBALT_INGOT), conditionsFromItem(ModItems.COBALT_INGOT))
+                .offerTo(consumer, id("cobalt_boots"));
 
         // -------- TUNGSTEN --------
 
@@ -442,6 +502,30 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         ).offerTo(consumer);
 
         FoundrySmeltingRecipeBuilder.smelting(
+                ModBlocks.LEPIDOLITE_ORE, 1,
+                ModItems.LITHIUM_INGOT, 1,
+                400, 0.7f
+        ).offerTo(consumer);
+
+        FoundrySmeltingRecipeBuilder.smelting(
+                ModBlocks.COBALT_ORE, 1,
+                ModItems.COBALT_INGOT, 1,
+                500, 0.9f
+        ).offerTo(consumer);
+
+        FoundrySmeltingRecipeBuilder.smelting(
+                ModBlocks.DEEPSLATE_LEPIDOLITE_ORE, 1,
+                ModItems.LITHIUM_INGOT, 1,
+                400, 0.7f
+        ).offerTo(consumer);
+
+        FoundrySmeltingRecipeBuilder.smelting(
+                ModBlocks.DEEPSLATE_COBALT_ORE, 1,
+                ModItems.COBALT_INGOT, 1,
+                500, 0.9f
+        ).offerTo(consumer);
+
+        FoundrySmeltingRecipeBuilder.smelting(
                 Items.COAL, 1,
                 ModItems.COKE, 1,
                 500, 0.7f
@@ -475,6 +559,36 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
         CobaltBlastingRecipeBuilder.smelting(
                 ModItems.RAW_TUNGSTEN, 1,
+                ModItems.TUNGSTEN_INGOT, 1,
+                500, 1.5f
+        ).offerTo(consumer);
+
+        CobaltBlastingRecipeBuilder.smelting(
+                ModBlocks.COBALT_ORE, 1,
+                ModItems.COBALT_INGOT, 1,
+                350, 0.9f
+        ).offerTo(consumer);
+
+        CobaltBlastingRecipeBuilder.smelting(
+                ModBlocks.DEEPSLATE_COBALT_ORE, 1,
+                ModItems.COBALT_INGOT, 1,
+                350, 0.9f
+        ).offerTo(consumer);
+
+        CobaltBlastingRecipeBuilder.smelting(
+                ModBlocks.LEPIDOLITE_ORE, 1,
+                ModItems.LITHIUM_INGOT, 1,
+                250, 0.7f
+        ).offerTo(consumer);
+
+        CobaltBlastingRecipeBuilder.smelting(
+                ModBlocks.DEEPSLATE_LEPIDOLITE_ORE, 1,
+                ModItems.LITHIUM_INGOT, 1,
+                250, 0.7f
+        ).offerTo(consumer);
+
+        CobaltBlastingRecipeBuilder.smelting(
+                ModBlocks.DEEPSLATE_TUNGSTEN_ORE, 1,
                 ModItems.TUNGSTEN_INGOT, 1,
                 500, 1.5f
         ).offerTo(consumer);
@@ -548,6 +662,58 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input('S', ModItems.OBSIDIAN_STICK)
                 .input('O', Blocks.OBSIDIAN)
                 .energyCost(500)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_HELMET)
+                .pattern("TTATT")
+                .pattern("TCCCT")
+                .pattern("TCNCT")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('C', ModItems.COMPRESSED_OBSIDIAN)
+                .input('N', Items.NETHERITE_HELMET)
+                .energyCost(250)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_CHESTPLATE)
+                .pattern("C   C")
+                .pattern("T   T")
+                .pattern("TCNCT")
+                .pattern("TTATT")
+                .pattern("TTTTT")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('C', ModItems.COMPRESSED_OBSIDIAN)
+                .input('N', Items.NETHERITE_CHESTPLATE)
+                .energyCost(250)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_LEGGINGS)
+                .pattern("TTATT")
+                .pattern("TCNCT")
+                .pattern("T   T")
+                .pattern("T   T")
+                .pattern("C   C")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('C', ModItems.COMPRESSED_OBSIDIAN)
+                .input('N', Items.NETHERITE_LEGGINGS)
+                .energyCost(250)
+                .count(1)
+                .offerTo(consumer);
+
+        AssemblingRecipeBuilder.create(ModItems.TUNGSTEN_BOOTS)
+                .pattern("TTATT")
+                .pattern("TTNTT")
+                .pattern("TC CT")
+                .input('T', ModItems.TUNGSTEN_INGOT)
+                .input('A', ModItems.ARTIFACT_BASE)
+                .input('C', ModItems.COMPRESSED_OBSIDIAN)
+                .input('N', Items.NETHERITE_BOOTS)
+                .energyCost(250)
                 .count(1)
                 .offerTo(consumer);
 

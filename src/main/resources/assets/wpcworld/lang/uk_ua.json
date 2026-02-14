@@ -1,4 +1,19 @@
 {
+  "item.wpcworld.lithium_helmet": "Літієвий шолом",
+  "item.wpcworld.lithium_chestplate": "Літієвий нагрудник",
+  "item.wpcworld.lithium_leggings": "Літієві поножі",
+  "item.wpcworld.lithium_boots": "Літієві чоботи",
+
+  "item.wpcworld.cobalt_helmet": "Кобальтовий шолом",
+  "item.wpcworld.cobalt_chestplate": "Кобальтовий нагрудник",
+  "item.wpcworld.cobalt_leggings": "Кобальтові поножі",
+  "item.wpcworld.cobalt_boots": "Кобальтові чоботи",
+
+  "item.wpcworld.tungsten_helmet": "Вольфрамовий шолом",
+  "item.wpcworld.tungsten_chestplate": "Вольфрамовий нагрудник",
+  "item.wpcworld.tungsten_leggings": "Вольфрамові поножі",
+  "item.wpcworld.tungsten_boots": "Вольфрамові чоботи",
+
   "item.wpcworld.lithium_hoe": "Літієва мотика",
   "item.wpcworld.lithium_shovel": "Літієва лопата",
   "item.wpcworld.lithium_pickaxe": "Літієва кірка",
@@ -98,12 +113,13 @@
 
 
   "station_name.wpcworld.foundry_furnace_controller": "Ливарна піч",
-  "emi.category.wpcworld.foundry_smelting": "Ливарна піч",
+  "emi.category.wpcworld.foundry_smelting": "Ливарне плавлення",
 
   "station_name.wpcworld.cobalt_blast_furnace": "Доменна піч",
-  "emi.category.wpcworld.cobalt_blasting": "Доменна піч",
+  "emi.category.wpcworld.cobalt_blasting": "Доменне плавлення",
 
   "station_name.wpcworld.assembly_table": "Складальний стіл",
+  "emi.category.wpcworld.assembling": "Складання",
 
   "message.wpcworld.foundry.invalid_structure": "Ливарну піч зібрано неправильно або не повністю",
   "message.wpcworld.cobalt.invalid_structure": "Доменна піч зібрана неправильно або не повністю",

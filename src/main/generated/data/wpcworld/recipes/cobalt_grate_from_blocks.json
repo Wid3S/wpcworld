@@ -3,16 +3,15 @@
   "category": "misc",
   "key": {
     "N": {
-      "item": "wpcworld:cobalt_block"
+      "item": "wpcworld:cobalt_ingot"
     }
   },
   "pattern": [
-    " N ",
+    " NN",
     "N N",
-    " N "
+    "NN "
   ],
   "result": {
-    "count": 4,
     "item": "wpcworld:cobalt_grate"
   },
   "show_notification": true

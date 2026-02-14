@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "wpcworld:item/sea_tyran_chestplate"
+    "layer0": "wpcworld:item/cobalt_leggings"
   }
 }

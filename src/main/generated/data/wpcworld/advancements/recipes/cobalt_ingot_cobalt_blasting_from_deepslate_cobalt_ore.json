@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "wpcworld:cobalt_ingot_cobalt_blasting_from_deepslate_cobalt_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "wpcworld:cobalt_ingot_cobalt_blasting_from_deepslate_cobalt_ore"
+    ]
+  },
+  "sends_telemetry_event": true
+}

@@ -52,7 +52,7 @@ public class CobaltBlastFurnaceScreen
     @Override
     protected void init() {
         super.init();
-        titleX = (backgroundWidth - textRenderer.getWidth(title)) / 2 - 36;
+        titleX = 8;
         titleY = -3;;
     }
 

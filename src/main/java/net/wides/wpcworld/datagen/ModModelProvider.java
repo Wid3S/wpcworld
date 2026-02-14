@@ -38,13 +38,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.CURSED_WORM, Models.GENERATED);
 
-
-        itemModelGenerator.register(ModItems.SEA_TYRAN_HELMET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SEA_TYRAN_CHESTPLATE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SEA_TYRAN_LEGGINGS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SEA_TYRAN_BOOTS, Models.GENERATED);
-
-
         itemModelGenerator.register(ModItems.RAW_LITHIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.LITHIUM_POWDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.LITHIUM_NUGGET, Models.GENERATED);
@@ -55,6 +48,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.LITHIUM_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LITHIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LITHIUM_SWORD, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.LITHIUM_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LITHIUM_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LITHIUM_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LITHIUM_BOOTS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.HEAT_RESISTANT_BRICK, Models.GENERATED);
 
@@ -67,6 +65,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COBALT_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COBALT_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.COBALT_SWORD, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.COBALT_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COBALT_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COBALT_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COBALT_BOOTS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.COKE, Models.GENERATED);
 
@@ -96,6 +99,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TUNGSTEN_EXCAVATOR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TUNGSTEN_TREECUTTER, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TUNGSTEN_SWORD, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.TUNGSTEN_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TUNGSTEN_BOOTS, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.SPIKY_RECHARGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRISM_OF_THE_SEAS, Models.GENERATED);

@@ -1,0 +1,29 @@
+{
+  "type": "wpcworld:assembling",
+  "energy": 250,
+  "key": {
+    "A": {
+      "item": "wpcworld:artifact_base"
+    },
+    "C": {
+      "item": "wpcworld:compressed_obsidian"
+    },
+    "N": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "T": {
+      "item": "wpcworld:tungsten_ingot"
+    }
+  },
+  "pattern": [
+    "TTATT",
+    "TCNCT",
+    "T   T",
+    "T   T",
+    "C   C"
+  ],
+  "result": {
+    "count": 1,
+    "item": "wpcworld:tungsten_leggings"
+  }
+}

@@ -11,17 +11,6 @@ import net.wides.wpcworld.block.ModBlocks;
 import net.wides.wpcworld.item.custom.*;
 
 public class ModItems {
-
-    public static final Item  SEA_TYRAN_HELMET = registerItem("sea_tyran_helmet",
-            new ArmorItem(ModArmorMaterials.SEA_TYRAN, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof().rarity(Rarity.RARE)));
-    public static final Item  SEA_TYRAN_CHESTPLATE = registerItem("sea_tyran_chestplate",
-            new ArmorItem(ModArmorMaterials.SEA_TYRAN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof().rarity(Rarity.RARE)));
-    public static final Item  SEA_TYRAN_LEGGINGS = registerItem("sea_tyran_leggings",
-            new ArmorItem(ModArmorMaterials.SEA_TYRAN, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof().rarity(Rarity.RARE)));
-    public static final Item  SEA_TYRAN_BOOTS = registerItem("sea_tyran_boots",
-            new ArmorItem(ModArmorMaterials.SEA_TYRAN, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof().rarity(Rarity.RARE)));
-
-    //new
     public static final Item  RAW_LITHIUM = registerItem("raw_lithium",
             new Item(new FabricItemSettings()));
     public static final Item  LITHIUM_POWDER = registerItem("lithium_powder",
@@ -41,6 +30,15 @@ public class ModItems {
             new HoeItem(ModToolMaterial.LITHIUM, -2, 0F, new FabricItemSettings()));
     public static final Item  LITHIUM_SWORD = registerItem("lithium_sword",
             new SwordItem(ModToolMaterial.LITHIUM, 3, -2.4F, new FabricItemSettings()));
+
+    public static final Item  LITHIUM_HELMET = registerItem("lithium_helmet",
+            new ArmorItem(ModArmorMaterials.LITHIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item  LITHIUM_CHESTPLATE = registerItem("lithium_chestplate",
+            new ArmorItem(ModArmorMaterials.LITHIUM, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item  LITHIUM_LEGGINGS = registerItem("lithium_leggings",
+            new ArmorItem(ModArmorMaterials.LITHIUM, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item  LITHIUM_BOOTS = registerItem("lithium_boots",
+            new ArmorItem(ModArmorMaterials.LITHIUM, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item  HEAT_RESISTANT_BRICK = registerItem("heat_resistant_brick",
             new Item(new FabricItemSettings()));
@@ -63,6 +61,17 @@ public class ModItems {
     public static final Item  COBALT_SWORD = registerItem("cobalt_sword",
             new SwordItem(ModToolMaterial.COBALT, 3, -2.4F, new FabricItemSettings()));
 
+    public static final Item  COBALT_HELMET = registerItem("cobalt_helmet",
+            new ArmorItem(ModArmorMaterials.COBALT, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item  COBALT_CHESTPLATE = registerItem("cobalt_chestplate",
+            new ArmorItem(ModArmorMaterials.COBALT, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item  COBALT_LEGGINGS = registerItem("cobalt_leggings",
+            new ArmorItem(ModArmorMaterials.COBALT, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item  COBALT_BOOTS = registerItem("cobalt_boots",
+            new ArmorItem(ModArmorMaterials.COBALT, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
+
     public static final Item  COKE = registerItem("coke",
             new Item(new FabricItemSettings()));
 
@@ -79,15 +88,24 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item  TUNGSTEN_EXCAVATOR = registerItem("tungsten_excavator",
-            new ExcavatorItem(ModToolMaterial.TUNGSTEN, 1, -2.8F, new FabricItemSettings()));
+            new ExcavatorItem(ModToolMaterial.TUNGSTEN, 1, -2.8F, new FabricItemSettings().rarity(Rarity.RARE)));
     public static final Item  TUNGSTEN_TREECUTTER = registerItem("tungsten_treecutter",
-            new TreeCutterItem(ModToolMaterial.TUNGSTEN, 5, -3.1F, new FabricItemSettings()));
+            new TreeCutterItem(ModToolMaterial.TUNGSTEN, 5, -3.1F, new FabricItemSettings().rarity(Rarity.RARE)));
     public static final Item  TUNGSTEN_MEGA_SHOVEL = registerItem("tungsten_mega_shovel",
-            new MegaShovelItem(ModToolMaterial.TUNGSTEN, 1.5F, -3.0F, new FabricItemSettings()));
+            new MegaShovelItem(ModToolMaterial.TUNGSTEN, 1.5F, -3.0F, new FabricItemSettings().rarity(Rarity.RARE)));
     public static final Item  TUNGSTEN_HOE = registerItem("tungsten_hoe",
-            new HoeItem(ModToolMaterial.TUNGSTEN, -6, 0F, new FabricItemSettings()));
+            new HoeItem(ModToolMaterial.TUNGSTEN, -6, 0F, new FabricItemSettings().rarity(Rarity.RARE)));
     public static final Item  TUNGSTEN_SWORD = registerItem("tungsten_sword",
-            new SwordItem(ModToolMaterial.TUNGSTEN, 3, -2.4F, new FabricItemSettings()));
+            new SwordItem(ModToolMaterial.TUNGSTEN, 3, -2.4F, new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item  TUNGSTEN_HELMET = registerItem("tungsten_helmet",
+            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.HELMET, new FabricItemSettings().rarity(Rarity.RARE)));
+    public static final Item  TUNGSTEN_CHESTPLATE = registerItem("tungsten_chestplate",
+            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().rarity(Rarity.RARE)));
+    public static final Item  TUNGSTEN_LEGGINGS = registerItem("tungsten_leggings",
+            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.LEGGINGS, new FabricItemSettings().rarity(Rarity.RARE)));
+    public static final Item  TUNGSTEN_BOOTS = registerItem("tungsten_boots",
+            new ArmorItem(ModArmorMaterials.TUNGSTEN, ArmorItem.Type.BOOTS, new FabricItemSettings().rarity(Rarity.RARE)));
 
     public static final Item  CHROME_INGOT = registerItem("chrome_ingot",
             new Item(new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
